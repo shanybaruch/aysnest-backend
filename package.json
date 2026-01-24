@@ -16,7 +16,7 @@
     "dependencies": {
         "bcrypt": "^5.1.1",
         "cookie-parser": "^1.4.7",
-        "cors": "^2.8.5",
+        "cors": "^2.8.6",
         "cryptr": "^6.3.0",
         "express": "^5.1.0",
         "mongodb": "^6.15.0",
