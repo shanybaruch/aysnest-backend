@@ -60,7 +60,7 @@ middlewares/
 ### Stay Collection
 ```js
 {
-  vendor: String,
+  name: String,
   speed: Number,
   owner: { type: ObjectId, ref: 'User' },
   msgs: [{

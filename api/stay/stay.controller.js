@@ -2,7 +2,6 @@ import { logger } from '../../services/logger.service.js'
 import { stayService } from './stay.service.js'
 
 export async function getStays(req, res) {
-	console.log('Somebody is asking for stays! Sending data now...')
 	try {
 		const filterBy = {
 			txt: req.query.txt || ''
@@ -29,7 +28,7 @@ export async function getStayById(req, res) {
 export async function addStay(req, res) {
 	const { loggedinUser, body } = req
 	const stay = {
-		vendor: body.vendor,
+		name: body.name,
 		speed: body.speed
 	}
 	try {

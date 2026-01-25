@@ -25,11 +25,8 @@ async function query(filterBy = { txt: '' }) {
 		const collection = await dbService.getCollection('stay')
 		var stayCursor = await collection.find(criteria, { sort })
 
-		if (filterBy.pageIdx !== undefined) {
-			stayCursor.skip(filterBy.pageIdx * PAGE_SIZE).limit(PAGE_SIZE)
-		}
-
-		const stays = stayCursor.toArray()
+		const stays = await stayCursor.toArray()
+		console.log(`Found ${stays.length} stays`)
 		return stays
 	} catch (err) {
 		logger.error('cannot find stays', err)
@@ -86,7 +83,7 @@ async function add(stay) {
 }
 
 async function update(stay) {
-	const stayToSave = { vendor: stay.vendor, speed: stay.speed }
+	const stayToSave = { name: stay.name, speed: stay.speed }
 
 	try {
 		const criteria = { _id: ObjectId.createFromHexString(stay._id) }
@@ -132,8 +129,7 @@ async function removeStayMsg(stayId, msgId) {
 
 function _buildCriteria(filterBy) {
 	const criteria = {
-		vendor: { $regex: filterBy.txt, $options: 'i' },
-		speed: { $gte: filterBy.minSpeed },
+		name: { $regex: filterBy.txt, $options: 'i' },
 	}
 
 	return criteria

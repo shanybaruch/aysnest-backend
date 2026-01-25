@@ -1,0 +1,2000 @@
+[
+    {
+        "name": "Eilat Sunstone Retreat",
+        "type": "Apartment",
+        "imgUrl": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=1740&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=1740&auto=format&fit=crop",
+            "https://plus.unsplash.com/premium_photo-1670360414903-19e5832f8bc4?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1740&auto=format&fit=crop",
+            "https://plus.unsplash.com/premium_photo-1675745329954-9639d3b74bbf?q=80&w=687&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=928&auto=format&fit=crop"
+        ],
+        "price": 842,
+        "capacity": 4,
+        "bedrooms": 2,
+        "beds": 3,
+        "bathrooms": 2,
+        "amenities": [
+            "Wifi",
+            "Kitchen",
+            "AirConditioning",
+            "Pool",
+            "TV",
+            "HotTub",
+            "BayView",
+            "Elevator"
+        ],
+        "labels": [
+            "Beachfront",
+            "Family-friendly",
+            "Luxury"
+        ],
+        "loc": {
+            "country": "Israel",
+            "countryCode": "IL",
+            "city": "Eilat",
+            "address": "35 Coral Beach",
+            "lat": 29.5577,
+            "lng": 34.9519
+        },
+        "host": {
+            "_id": "u101",
+            "fullname": "Dudi Ganz",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg"
+        },
+        "rate": 4.7,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Amazing view and the pool was perfect!",
+                "rate": 5,
+                "by": {
+                    "fullname": "Alice Smith",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/10.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "New York City Central Park Apartment",
+        "type": "Apartment",
+        "imgUrl": "https://plus.unsplash.com/premium_photo-1670360414903-19e5832f8bc4?q=80&w=1740&auto=format&fit=crop",
+        "imgUrls": [
+            "https://plus.unsplash.com/premium_photo-1670360414903-19e5832f8bc4?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1740&auto=format&fit=crop",
+            "https://plus.unsplash.com/premium_photo-1675745329954-9639d3b74bbf?q=80&w=687&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=928&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1740&auto=format&fit=crop"
+        ],
+        "price": 546,
+        "capacity": 3,
+        "bedrooms": 1,
+        "beds": 2,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "Workspace",
+            "Kitchen",
+            "Heating",
+            "Elevator",
+            "SmokeDetector",
+            "Iron"
+        ],
+        "labels": [
+            "City Center",
+            "Romantic"
+        ],
+        "loc": {
+            "country": "United States",
+            "countryCode": "US",
+            "city": "New York",
+            "address": "123 Central Park West",
+            "lat": 40.7829,
+            "lng": -73.9654
+        },
+        "host": {
+            "_id": "u102",
+            "fullname": "Michal Ohayon",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/2.jpg"
+        },
+        "rate": 4.5,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Perfect location for exploring NYC.",
+                "rate": 5,
+                "by": {
+                    "fullname": "David Green",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/13.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Paris Eiffel Tower View Apartment",
+        "type": "Apartment",
+        "imgUrl": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1740&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1740&auto=format&fit=crop",
+            "https://plus.unsplash.com/premium_photo-1675745329954-9639d3b74bbf?q=80&w=687&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=928&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1740&auto=format&fit=crop"
+        ],
+        "price": 948,
+        "capacity": 2,
+        "bedrooms": 1,
+        "beds": 1,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "Kitchen",
+            "Heating",
+            "HairDryer",
+            "Essentials",
+            "SelfCheckIn"
+        ],
+        "labels": [
+            "Romantic",
+            "Iconic Views"
+        ],
+        "loc": {
+            "country": "France",
+            "countryCode": "FR",
+            "city": "Paris",
+            "address": "5 Avenue Anatole France",
+            "lat": 48.8584,
+            "lng": 2.2945
+        },
+        "host": {
+            "_id": "u103",
+            "fullname": "Jonathan Levi",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg"
+        },
+        "rate": 4.9,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "The view is breathtaking.",
+                "rate": 5,
+                "by": {
+                    "fullname": "Clara Martin",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/17.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Tokyo Shibuya Crossing View Suite",
+        "type": "Suite",
+        "imgUrl": "https://plus.unsplash.com/premium_photo-1675745329954-9639d3b74bbf?q=80&w=687&auto=format&fit=crop",
+        "imgUrls": [
+            "https://plus.unsplash.com/premium_photo-1675745329954-9639d3b74bbf?q=80&w=687&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=928&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?q=80&w=870&auto=format&fit=crop"
+        ],
+        "price": 748,
+        "capacity": 3,
+        "bedrooms": 1,
+        "beds": 2,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "TV",
+            "Refrigerator",
+            "AirConditioning",
+            "Washer",
+            "SmokeDetector"
+        ],
+        "labels": [
+            "City View",
+            "Modern"
+        ],
+        "loc": {
+            "country": "Japan",
+            "countryCode": "JP",
+            "city": "Tokyo",
+            "address": "109 Shibuya Crossing",
+            "lat": 35.6598,
+            "lng": 139.7005
+        },
+        "host": {
+            "_id": "u104",
+            "fullname": "Sarah Cohen",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/4.jpg"
+        },
+        "rate": 4.6,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Unbelievable view of the crossing.",
+                "rate": 5,
+                "by": {
+                    "fullname": "Kenji Tanaka",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/18.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Rome Ancient Heart Apartment",
+        "type": "Apartment",
+        "imgUrl": "https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=928&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=928&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?q=80&w=870&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1562790351-d273a961e0e9?q=80&w=930&auto=format&fit=crop"
+        ],
+        "price": 734,
+        "capacity": 4,
+        "bedrooms": 2,
+        "beds": 2,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "Kitchen",
+            "Washer",
+            "Heating",
+            "HairDryer",
+            "HotWater"
+        ],
+        "labels": [
+            "Historic",
+            "Central"
+        ],
+        "loc": {
+            "country": "Italy",
+            "countryCode": "IT",
+            "city": "Rome",
+            "address": "15 Via del Corso",
+            "lat": 41.9028,
+            "lng": 12.4964
+        },
+        "host": {
+            "_id": "u101",
+            "fullname": "Dudi Ganz",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg"
+        },
+        "rate": 4.3,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Very authentic Rome experience.",
+                "rate": 4,
+                "by": {
+                    "fullname": "Giulia Rossi",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/20.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "London Eye View Apartment",
+        "type": "Apartment",
+        "imgUrl": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1740&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?q=80&w=870&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1562790351-d273a961e0e9?q=80&w=930&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1589923158776-cb4485d99fd6?q=80&w=928&auto=format&fit=crop"
+        ],
+        "price": 680,
+        "capacity": 3,
+        "bedrooms": 1,
+        "beds": 2,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "TV",
+            "Kitchen",
+            "Washer",
+            "Heating",
+            "Elevator",
+            "CarbonMonoxideDetector"
+        ],
+        "labels": [
+            "Iconic Views",
+            "Modern"
+        ],
+        "loc": {
+            "country": "United Kingdom",
+            "countryCode": "GB",
+            "city": "London",
+            "address": "10 South Bank",
+            "lat": 51.5074,
+            "lng": -0.1278
+        },
+        "host": {
+            "_id": "u102",
+            "fullname": "Michal Ohayon",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/2.jpg"
+        },
+        "rate": 4.6,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Spectacular views of the river.",
+                "rate": 5,
+                "by": {
+                    "fullname": "Olivia Brown",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/23.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Eilat Dolphin Reef Villa",
+        "type": "Villa",
+        "imgUrl": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1740&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?q=80&w=870&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1562790351-d273a961e0e9?q=80&w=930&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1589923158776-cb4485d99fd6?q=80&w=928&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=1740&auto=format&fit=crop"
+        ],
+        "price": 1250,
+        "capacity": 8,
+        "bedrooms": 4,
+        "beds": 6,
+        "bathrooms": 3,
+        "amenities": [
+            "Wifi",
+            "Pool",
+            "AirConditioning",
+            "GardenView",
+            "BBQGrill",
+            "SunLoungers",
+            "parking",
+            "Kitchen",
+            "Washer"
+        ],
+        "labels": [
+            "Luxury",
+            "Great for groups",
+            "Sea"
+        ],
+        "loc": {
+            "country": "Israel",
+            "countryCode": "IL",
+            "city": "Eilat",
+            "address": "South Beach Rd",
+            "lat": 29.5161,
+            "lng": 34.9262
+        },
+        "host": {
+            "_id": "u103",
+            "fullname": "Jonathan Levi",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg"
+        },
+        "rate": 4.9,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "The private pool and BBQ area made our vacation!",
+                "rate": 5,
+                "by": {
+                    "fullname": "Itay L.",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/34.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "NY Brooklyn Artistic Loft",
+        "type": "Loft",
+        "imgUrl": "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?q=80&w=870&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?q=80&w=870&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1562790351-d273a961e0e9?q=80&w=930&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1589923158776-cb4485d99fd6?q=80&w=928&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1468824357306-a439d58ccb1c?q=80&w=1359&auto=format&fit=crop"
+        ],
+        "price": 420,
+        "capacity": 3,
+        "bedrooms": 1,
+        "beds": 2,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "Workspace",
+            "Kitchen",
+            "CoffeeMaker",
+            "SmokeDetector",
+            "Hangers",
+            "HairDryer"
+        ],
+        "labels": [
+            "Creative",
+            "Industrial",
+            "Local"
+        ],
+        "loc": {
+            "country": "United States",
+            "countryCode": "US",
+            "city": "New York",
+            "address": "50 Bedford Ave",
+            "lat": 40.7218,
+            "lng": -73.9571
+        },
+        "host": {
+            "_id": "u104",
+            "fullname": "Sarah Cohen",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/4.jpg"
+        },
+        "rate": 4.6,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Super cool space in the heart of Williamsburg.",
+                "rate": 5,
+                "by": {
+                    "fullname": "Noah K.",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/25.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Paris Le Marais Gem",
+        "type": "Apartment",
+        "imgUrl": "https://images.unsplash.com/photo-1562790351-d273a961e0e9?q=80&w=930&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1562790351-d273a961e0e9?q=80&w=930&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1589923158776-cb4485d99fd6?q=80&w=928&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1468824357306-a439d58ccb1c?q=80&w=1359&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1623718649591-311775a30c43?q=80&w=1740&auto=format&fit=crop"
+        ],
+        "price": 480,
+        "capacity": 2,
+        "bedrooms": 1,
+        "beds": 1,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "Heating",
+            "Kitchen",
+            "Refrigerator",
+            "Microwave",
+            "HotWater",
+            "Essentials"
+        ],
+        "labels": [
+            "Historic",
+            "Trendy"
+        ],
+        "loc": {
+            "country": "France",
+            "countryCode": "FR",
+            "city": "Paris",
+            "address": "Rue des Rosiers",
+            "lat": 48.8578,
+            "lng": 2.3592
+        },
+        "host": {
+            "_id": "u101",
+            "fullname": "Dudi Ganz",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg"
+        },
+        "rate": 4.7,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Best falafel just around the corner!",
+                "rate": 5,
+                "by": {
+                    "fullname": "Sophie L.",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/26.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Tokyo Shinjuku Modern Flat",
+        "type": "Apartment",
+        "imgUrl": "https://images.unsplash.com/photo-1589923158776-cb4485d99fd6?q=80&w=928&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1589923158776-cb4485d99fd6?q=80&w=928&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1468824357306-a439d58ccb1c?q=80&w=1359&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1623718649591-311775a30c43?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1598605272254-16f0c0ecdfa5?q=80&w=1742&auto=format&fit=crop"
+        ],
+        "price": 510,
+        "capacity": 2,
+        "bedrooms": 1,
+        "beds": 1,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "AirConditioning",
+            "Workspace",
+            "Washer",
+            "Dryer",
+            "Elevator",
+            "SecurityCameras"
+        ],
+        "labels": [
+            "Modern",
+            "Minimalist"
+        ],
+        "loc": {
+            "country": "Japan",
+            "countryCode": "JP",
+            "city": "Tokyo",
+            "address": "5 Shinjuku Gyoen",
+            "lat": 35.6888,
+            "lng": 139.7042
+        },
+        "host": {
+            "_id": "u102",
+            "fullname": "Michal Ohayon",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/2.jpg"
+        },
+        "rate": 4.4,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Very clean and near the station.",
+                "rate": 4,
+                "by": {
+                    "fullname": "Taro Y.",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/27.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Rome Trastevere Artist Loft",
+        "type": "Loft",
+        "imgUrl": "https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=1740&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1468824357306-a439d58ccb1c?q=80&w=1359&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1623718649591-311775a30c43?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1598605272254-16f0c0ecdfa5?q=80&w=1742&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1650967123062-3de70b7bf331?q=80&w=928&auto=format&fit=crop"
+        ],
+        "price": 390,
+        "capacity": 2,
+        "bedrooms": 1,
+        "beds": 1,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "Heating",
+            "Kitchen",
+            "HotWater",
+            "SelfCheckIn",
+            "Essentials"
+        ],
+        "labels": [
+            "Nightlife",
+            "Vibrant"
+        ],
+        "loc": {
+            "country": "Italy",
+            "countryCode": "IT",
+            "city": "Rome",
+            "address": "12 Via della Lungaretta",
+            "lat": 41.8889,
+            "lng": 12.4707
+        },
+        "host": {
+            "_id": "u103",
+            "fullname": "Jonathan Levi",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg"
+        },
+        "rate": 4.8,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Trastevere is the best neighborhood in Rome!",
+                "rate": 5,
+                "by": {
+                    "fullname": "Marco P.",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/28.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "London Soho Stylish Suite",
+        "type": "Suite",
+        "imgUrl": "https://images.unsplash.com/photo-1468824357306-a439d58ccb1c?q=80&w=1359&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1468824357306-a439d58ccb1c?q=80&w=1359&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1623718649591-311775a30c43?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1598605272254-16f0c0ecdfa5?q=80&w=1742&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1650967123062-3de70b7bf331?q=80&w=928&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?q=80&w=1374&auto=format&fit=crop"
+        ],
+        "price": 615,
+        "capacity": 4,
+        "bedrooms": 1,
+        "beds": 2,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "TV",
+            "Elevator",
+            "Heating",
+            "Workspace",
+            "RoomDarkeningShades",
+            "Essentials"
+        ],
+        "labels": [
+            "Trendy",
+            "Central"
+        ],
+        "loc": {
+            "country": "United Kingdom",
+            "countryCode": "GB",
+            "city": "London",
+            "address": "45 Dean St",
+            "lat": 51.5130,
+            "lng": -0.1320
+        },
+        "host": {
+            "_id": "u104",
+            "fullname": "Sarah Cohen",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/4.jpg"
+        },
+        "rate": 4.5,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Right in the middle of all the Soho fun.",
+                "rate": 5,
+                "by": {
+                    "fullname": "Emma W.",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/29.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Eilat Red Sea Villa",
+        "type": "Villa",
+        "imgUrl": "https://images.unsplash.com/photo-1623718649591-311775a30c43?q=80&w=1740&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1623718649591-311775a30c43?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1598605272254-16f0c0ecdfa5?q=80&w=1742&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1650967123062-3de70b7bf331?q=80&w=928&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?q=80&w=1374&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1740&auto=format&fit=crop"
+        ],
+        "price": 1400,
+        "capacity": 10,
+        "bedrooms": 5,
+        "beds": 8,
+        "bathrooms": 4,
+        "amenities": [
+            "Wifi",
+            "Pool",
+            "AirConditioning",
+            "BBQGrill",
+            "parking",
+            "Kitchen",
+            "HotTub",
+            "TV"
+        ],
+        "labels": [
+            "Huge",
+            "Sea View"
+        ],
+        "loc": {
+            "country": "Israel",
+            "countryCode": "IL",
+            "city": "Eilat",
+            "address": "Red Sea Promenade",
+            "lat": 29.5445,
+            "lng": 34.9510
+        },
+        "host": {
+            "_id": "u101",
+            "fullname": "Dudi Ganz",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg"
+        },
+        "rate": 5.0,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "The most luxurious villa we've ever stayed in.",
+                "rate": 5,
+                "by": {
+                    "fullname": "Omri G.",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/30.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "NY Wall Street Executive",
+        "type": "Apartment",
+        "imgUrl": "https://images.unsplash.com/photo-1598605272254-16f0c0ecdfa5?q=80&w=1742&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1598605272254-16f0c0ecdfa5?q=80&w=1742&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1650967123062-3de70b7bf331?q=80&w=928&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?q=80&w=1374&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=1748&auto=format&fit=crop"
+        ],
+        "price": 580,
+        "capacity": 2,
+        "bedrooms": 1,
+        "beds": 1,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "Gym",
+            "Elevator",
+            "AirConditioning",
+            "Workspace",
+            "SmokeDetector",
+            "Iron"
+        ],
+        "labels": [
+            "Business",
+            "Modern"
+        ],
+        "loc": {
+            "country": "United States",
+            "countryCode": "US",
+            "city": "New York",
+            "address": "Wall St",
+            "lat": 40.7060,
+            "lng": -74.0088
+        },
+        "host": {
+            "_id": "u102",
+            "fullname": "Michal Ohayon",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/2.jpg"
+        },
+        "rate": 4.3,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Great for work trips. Very quiet and professional.",
+                "rate": 4,
+                "by": {
+                    "fullname": "Robert D.",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/31.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Paris Canal Saint-Martin Flat",
+        "type": "Apartment",
+        "imgUrl": "https://images.unsplash.com/photo-1650967123062-3de70b7bf331?q=80&w=928&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1650967123062-3de70b7bf331?q=80&w=928&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?q=80&w=1374&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=1748&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1455587734955-081b22074882?q=80&w=1740&auto=format&fit=crop"
+        ],
+        "price": 430,
+        "capacity": 2,
+        "bedrooms": 1,
+        "beds": 1,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "Kitchen",
+            "Heating",
+            "Washer",
+            "Refrigerator",
+            "Espresso",
+            "Essentials"
+        ],
+        "labels": [
+            "Hip",
+            "Canal View"
+        ],
+        "loc": {
+            "country": "France",
+            "countryCode": "FR",
+            "city": "Paris",
+            "address": "Quai de Valmy",
+            "lat": 48.8715,
+            "lng": 2.3670
+        },
+        "host": {
+            "_id": "u103",
+            "fullname": "Jonathan Levi",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg"
+        },
+        "rate": 4.6,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "The canal vibe is amazing at night.",
+                "rate": 5,
+                "by": {
+                    "fullname": "Julie B.",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/32.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Tokyo Akihabara Tech-Hub",
+        "type": "Apartment",
+        "imgUrl": "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?q=80&w=1374&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?q=80&w=1374&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=1748&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1455587734955-081b22074882?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1325&auto=format&fit=crop"
+        ],
+        "price": 380,
+        "capacity": 2,
+        "bedrooms": 1,
+        "beds": 2,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "TV",
+            "AirConditioning",
+            "Washer",
+            "SmokeDetector",
+            "FirstAidKit",
+            "Workspace"
+        ],
+        "labels": [
+            "Gamer",
+            "Modern"
+        ],
+        "loc": {
+            "country": "Japan",
+            "countryCode": "JP",
+            "city": "Tokyo",
+            "address": "Chiyoda City",
+            "lat": 35.6984,
+            "lng": 139.7711
+        },
+        "host": {
+            "_id": "u104",
+            "fullname": "Sarah Cohen",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/4.jpg"
+        },
+        "rate": 4.8,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Fastest internet I've ever had in an Airbnb!",
+                "rate": 5,
+                "by": {
+                    "fullname": "Hiro M.",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/33.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Rome Pantheon Luxury Suite",
+        "type": "Suite",
+        "imgUrl": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1740&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=1748&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1455587734955-081b22074882?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1325&auto=format&fit=crop",
+            "https://plus.unsplash.com/premium_photo-1700140420241-9e21b75cb0ce?q=80&w=2532&auto=format&fit=crop"
+        ],
+        "price": 920,
+        "capacity": 4,
+        "bedrooms": 2,
+        "beds": 2,
+        "bathrooms": 2,
+        "amenities": [
+            "Wifi",
+            "Bathtub",
+            "Kitchen",
+            "Heating",
+            "Elevator",
+            "Essentials",
+            "AirConditioning"
+        ],
+        "labels": [
+            "Luxury",
+            "Historic"
+        ],
+        "loc": {
+            "country": "Italy",
+            "countryCode": "IT",
+            "city": "Rome",
+            "address": "Piazza della Rotonda",
+            "lat": 41.8986,
+            "lng": 12.4769
+        },
+        "host": {
+            "_id": "u101",
+            "fullname": "Dudi Ganz",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg"
+        },
+        "rate": 4.9,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Luxury at its finest. You can see the Pantheon from the door.",
+                "rate": 5,
+                "by": {
+                    "fullname": "Giovanni",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/42.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "London Kensington Royal Suite",
+        "type": "Suite",
+        "imgUrl": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=1748&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=1748&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1455587734955-081b22074882?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1325&auto=format&fit=crop",
+            "https://plus.unsplash.com/premium_photo-1700140420241-9e21b75cb0ce?q=80&w=2532&auto=format&fit=crop",
+            "https://plus.unsplash.com/premium_photo-1692217764140-4f8db35b9f76?q=80&w=1144&auto=format&fit=crop"
+        ],
+        "price": 890,
+        "capacity": 4,
+        "bedrooms": 2,
+        "beds": 2,
+        "bathrooms": 2,
+        "amenities": [
+            "Wifi",
+            "Kitchen",
+            "Heating",
+            "Elevator",
+            "Bathtub",
+            "Hangers",
+            "HairDryer",
+            "HotWater"
+        ],
+        "labels": [
+            "Royal Stay",
+            "Luxury"
+        ],
+        "loc": {
+            "country": "United Kingdom",
+            "countryCode": "GB",
+            "city": "London",
+            "address": "Kensington High St",
+            "lat": 51.5010,
+            "lng": -0.1906
+        },
+        "host": {
+            "_id": "u102",
+            "fullname": "Michal Ohayon",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/2.jpg"
+        },
+        "rate": 4.9,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Exceptional elegance and comfort.",
+                "rate": 5,
+                "by": {
+                    "fullname": "Victoria",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/15.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Eilat Almogim Studio",
+        "type": "Studio",
+        "imgUrl": "https://images.unsplash.com/photo-1455587734955-081b22074882?q=80&w=1740&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1455587734955-081b22074882?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1325&auto=format&fit=crop",
+            "https://plus.unsplash.com/premium_photo-1700140420241-9e21b75cb0ce?q=80&w=2532&auto=format&fit=crop",
+            "https://plus.unsplash.com/premium_photo-1692217764140-4f8db35b9f76?q=80&w=1144&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1615762289422-4e4bc422a784?q=80&w=870&auto=format&fit=crop"
+        ],
+        "price": 280,
+        "capacity": 2,
+        "bedrooms": 1,
+        "beds": 1,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "AirConditioning",
+            "Refrigerator",
+            "TV",
+            "Microwave",
+            "Kitchen",
+            "SelfCheckIn"
+        ],
+        "labels": [
+            "Budget",
+            "Clean"
+        ],
+        "loc": {
+            "country": "Israel",
+            "countryCode": "IL",
+            "city": "Eilat",
+            "address": "Almogim St",
+            "lat": 29.5570,
+            "lng": 34.9480
+        },
+        "host": {
+            "_id": "u103",
+            "fullname": "Jonathan Levi",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg"
+        },
+        "rate": 4.2,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Simple and clean.",
+                "rate": 4,
+                "by": {
+                    "fullname": "Dana",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/50.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "NYC Soho Artist Flat",
+        "type": "Apartment",
+        "imgUrl": "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1325&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1325&auto=format&fit=crop",
+            "https://plus.unsplash.com/premium_photo-1700140420241-9e21b75cb0ce?q=80&w=2532&auto=format&fit=crop",
+            "https://plus.unsplash.com/premium_photo-1692217764140-4f8db35b9f76?q=80&w=1144&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1615762289422-4e4bc422a784?q=80&w=870&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1584105784619-f22e75957d4b?q=80&w=627&auto=format&fit=crop"
+        ],
+        "price": 690,
+        "capacity": 4,
+        "bedrooms": 2,
+        "beds": 2,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "Kitchen",
+            "Washer",
+            "Heating",
+            "Workspace",
+            "Hangers",
+            "Essentials"
+        ],
+        "labels": [
+            "Artistic",
+            "Fashionable"
+        ],
+        "loc": {
+            "country": "United States",
+            "countryCode": "US",
+            "city": "New York",
+            "address": "Prince St",
+            "lat": 40.7243,
+            "lng": -73.9977
+        },
+        "host": {
+            "_id": "u104",
+            "fullname": "Sarah Cohen",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/4.jpg"
+        },
+        "rate": 4.6,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Classic Soho loft vibes.",
+                "rate": 5,
+                "by": {
+                    "fullname": "Sarah",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/48.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Paris Montmartre Secret Garden",
+        "type": "House",
+        "imgUrl": "https://plus.unsplash.com/premium_photo-1700140420241-9e21b75cb0ce?q=80&w=2532&auto=format&fit=crop",
+        "imgUrls": [
+            "https://plus.unsplash.com/premium_photo-1700140420241-9e21b75cb0ce?q=80&w=2532&auto=format&fit=crop",
+            "https://plus.unsplash.com/premium_photo-1692217764140-4f8db35b9f76?q=80&w=1144&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1615762289422-4e4bc422a784?q=80&w=870&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1584105784619-f22e75957d4b?q=80&w=627&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1689668158402-35beeaf9167d?q=80&w=870&auto=format&fit=crop"
+        ],
+        "price": 570,
+        "capacity": 3,
+        "bedrooms": 1,
+        "beds": 2,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "GardenView",
+            "Kitchen",
+            "Heating",
+            "PrivateEntrance",
+            "FirstAidKit"
+        ],
+        "labels": [
+            "Secret Gem",
+            "Romantic"
+        ],
+        "loc": {
+            "country": "France",
+            "countryCode": "FR",
+            "city": "Paris",
+            "address": "Rue Lepic",
+            "lat": 48.8867,
+            "lng": 2.3328
+        },
+        "host": {
+            "_id": "u101",
+            "fullname": "Dudi Ganz",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg"
+        },
+        "rate": 4.8,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "A hidden paradise.",
+                "rate": 5,
+                "by": {
+                    "fullname": "Amélie",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/44.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Tokyo Roppongi Skyline Suite",
+        "type": "Suite",
+        "imgUrl": "https://plus.unsplash.com/premium_photo-1692217764140-4f8db35b9f76?q=80&w=1144&auto=format&fit=crop",
+        "imgUrls": [
+            "https://plus.unsplash.com/premium_photo-1692217764140-4f8db35b9f76?q=80&w=1144&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1615762289422-4e4bc422a784?q=80&w=870&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1584105784619-f22e75957d4b?q=80&w=627&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1689668158402-35beeaf9167d?q=80&w=870&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1604348825621-22800b6ed16d?q=80&w=687&auto=format&fit=crop"
+        ],
+        "price": 810,
+        "capacity": 4,
+        "bedrooms": 2,
+        "beds": 2,
+        "bathrooms": 2,
+        "amenities": [
+            "Wifi",
+            "TV",
+            "AirConditioning",
+            "Bathtub",
+            "Elevator",
+            "SecurityCameras",
+            "SmokeDetector"
+        ],
+        "labels": [
+            "Skyline",
+            "Modern"
+        ],
+        "loc": {
+            "country": "Japan",
+            "countryCode": "JP",
+            "city": "Tokyo",
+            "address": "Roppongi Hills",
+            "lat": 35.6605,
+            "lng": 139.7291
+        },
+        "host": {
+            "_id": "u102",
+            "fullname": "Michal Ohayon",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/2.jpg"
+        },
+        "rate": 4.7,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Tokyo Tower looks amazing!",
+                "rate": 5,
+                "by": {
+                    "fullname": "Mimi",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/46.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Rome Vatican Terrace Studio",
+        "type": "Studio",
+        "imgUrl": "https://images.unsplash.com/photo-1615762289422-4e4bc422a784?q=80&w=870&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1615762289422-4e4bc422a784?q=80&w=870&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1584105784619-f22e75957d4b?q=80&w=627&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1689668158402-35beeaf9167d?q=80&w=870&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1604348825621-22800b6ed16d?q=80&w=687&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1586611292717-f828b167408c?q=80&w=1374&auto=format&fit=crop"
+        ],
+        "price": 380,
+        "capacity": 2,
+        "bedrooms": 1,
+        "beds": 1,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "Heating",
+            "AirConditioning",
+            "Espresso",
+            "Refrigerator",
+            "Hangers",
+            "Kitchen"
+        ],
+        "labels": [
+            "View",
+            "Romantic"
+        ],
+        "loc": {
+            "country": "Italy",
+            "countryCode": "IT",
+            "city": "Rome",
+            "address": "Via della Conciliazione",
+            "lat": 41.9022,
+            "lng": 12.4573
+        },
+        "host": {
+            "_id": "u103",
+            "fullname": "Jonathan Levi",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg"
+        },
+        "rate": 4.5,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "The terrace is great.",
+                "rate": 5,
+                "by": {
+                    "fullname": "Fabio",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/47.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "London Shoreditch Industrial Loft",
+        "type": "Loft",
+        "imgUrl": "https://images.unsplash.com/photo-1584105784619-f22e75957d4b?q=80&w=627&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1584105784619-f22e75957d4b?q=80&w=627&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1689668158402-35beeaf9167d?q=80&w=870&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1604348825621-22800b6ed16d?q=80&w=687&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1586611292717-f828b167408c?q=80&w=1374&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1563493653502-9e270be23596?q=80&w=1740&auto=format&fit=crop"
+        ],
+        "price": 450,
+        "capacity": 3,
+        "bedrooms": 1,
+        "beds": 2,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "Workspace",
+            "Kitchen",
+            "TV",
+            "Iron",
+            "Hangers",
+            "HairDryer"
+        ],
+        "labels": [
+            "Hipster",
+            "Artistic"
+        ],
+        "loc": {
+            "country": "United Kingdom",
+            "countryCode": "GB",
+            "city": "London",
+            "address": "Brick Lane",
+            "lat": 51.5230,
+            "lng": -0.0710
+        },
+        "host": {
+            "_id": "u104",
+            "fullname": "Sarah Cohen",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/4.jpg"
+        },
+        "rate": 4.6,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Vibrant area.",
+                "rate": 5,
+                "by": {
+                    "fullname": "Liam",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/18.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Eilat Coral Reef Villa",
+        "type": "Villa",
+        "imgUrl": "https://images.unsplash.com/photo-1689668158402-35beeaf9167d?q=80&w=870&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1689668158402-35beeaf9167d?q=80&w=870&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1604348825621-22800b6ed16d?q=80&w=687&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1586611292717-f828b167408c?q=80&w=1374&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1563493653502-9e270be23596?q=80&w=1740&auto=format&fit=crop",
+            "https://plus.unsplash.com/premium_photo-1675745329634-4dc1f4247e48?q=80&w=687&auto=format&fit=crop"
+        ],
+        "price": 995,
+        "capacity": 10,
+        "bedrooms": 5,
+        "beds": 8,
+        "bathrooms": 4,
+        "amenities": [
+            "Pool",
+            "Wifi",
+            "Kitchen",
+            "Gym",
+            "parking",
+            "AirConditioning",
+            "BayView",
+            "BBQGrill",
+            "SunLoungers"
+        ],
+        "labels": [
+            "Luxury",
+            "Massive"
+        ],
+        "loc": {
+            "country": "Israel",
+            "countryCode": "IL",
+            "city": "Eilat",
+            "address": "Mishol HaYam",
+            "lat": 29.5445,
+            "lng": 34.9510
+        },
+        "host": {
+            "_id": "u101",
+            "fullname": "Dudi Ganz",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg"
+        },
+        "rate": 4.9,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Simply incredible.",
+                "rate": 5,
+                "by": {
+                    "fullname": "Yossi",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/45.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "NYC Upper East Side Classic",
+        "type": "Apartment",
+        "imgUrl": "https://images.unsplash.com/photo-1604348825621-22800b6ed16d?q=80&w=687&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1604348825621-22800b6ed16d?q=80&w=687&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1586611292717-f828b167408c?q=80&w=1374&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1563493653502-9e270be23596?q=80&w=1740&auto=format&fit=crop",
+            "https://plus.unsplash.com/premium_photo-1675745329634-4dc1f4247e48?q=80&w=687&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1740&auto=format&fit=crop"
+        ],
+        "price": 610,
+        "capacity": 4,
+        "bedrooms": 2,
+        "beds": 2,
+        "bathrooms": 2,
+        "amenities": [
+            "Wifi",
+            "Kitchen",
+            "Elevator",
+            "Heating",
+            "SmokeDetector",
+            "Iron",
+            "Hangers"
+        ],
+        "labels": [
+            "Prestigious",
+            "Quiet"
+        ],
+        "loc": {
+            "country": "United States",
+            "countryCode": "US",
+            "city": "New York",
+            "address": "East 79th St",
+            "lat": 40.7744,
+            "lng": -73.9591
+        },
+        "host": {
+            "_id": "u102",
+            "fullname": "Michal Ohayon",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/2.jpg"
+        },
+        "rate": 4.7,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Elegant building.",
+                "rate": 5,
+                "by": {
+                    "fullname": "Linda",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/12.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Paris Saint-Germain Chic Studio",
+        "type": "Studio",
+        "imgUrl": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=1560&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=1560&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1748&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1512918766671-56f0b1733c06?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=1740&auto=format&fit=crop"
+        ],
+        "price": 420,
+        "capacity": 2,
+        "bedrooms": 1,
+        "beds": 1,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "Kitchen",
+            "Heating",
+            "HotWater",
+            "Essentials",
+            "HairDryer",
+            "SelfCheckIn"
+        ],
+        "labels": [
+            "Boutique",
+            "Historic",
+            "Art District"
+        ],
+        "loc": {
+            "country": "France",
+            "countryCode": "FR",
+            "city": "Paris",
+            "address": "Rue de Seine",
+            "lat": 48.8540,
+            "lng": 2.3360
+        },
+        "host": {
+            "_id": "u103",
+            "fullname": "Jonathan Levi",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg"
+        },
+        "rate": 4.8,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Surrounded by art galleries. Truly Parisian.",
+                "rate": 5,
+                "by": {
+                    "fullname": "Chloe",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/24.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Tokyo Ginza Luxury Flat",
+        "type": "Apartment",
+        "imgUrl": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1887&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1887&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1554435493-94764d99d13e?q=80&w=1636&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=1560&auto=format&fit=crop"
+        ],
+        "price": 750,
+        "capacity": 3,
+        "bedrooms": 1,
+        "beds": 2,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "Kitchen",
+            "AirConditioning",
+            "Washer",
+            "Dryer",
+            "Elevator",
+            "SecurityCameras",
+            "TV"
+        ],
+        "labels": [
+            "High-end",
+            "Modern",
+            "Shopping"
+        ],
+        "loc": {
+            "country": "Japan",
+            "countryCode": "JP",
+            "city": "Tokyo",
+            "address": "Ginza 6-chome",
+            "lat": 35.6712,
+            "lng": 139.7666
+        },
+        "host": {
+            "_id": "u104",
+            "fullname": "Sarah Cohen",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/4.jpg"
+        },
+        "rate": 4.9,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Sleek and professional. Best location in Tokyo.",
+                "rate": 5,
+                "by": {
+                    "fullname": "Hiroshi",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/38.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Rome Navona Square View",
+        "type": "Apartment",
+        "imgUrl": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1740&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1748&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=1560&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1512918766671-56f0b1733c06?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=928&auto=format&fit=crop"
+        ],
+        "price": 540,
+        "capacity": 4,
+        "bedrooms": 2,
+        "beds": 2,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "Kitchen",
+            "AirConditioning",
+            "Heating",
+            "Refrigerator",
+            "DiningTable",
+            "Essentials"
+        ],
+        "labels": [
+            "Iconic View",
+            "Central"
+        ],
+        "loc": {
+            "country": "Italy",
+            "countryCode": "IT",
+            "city": "Rome",
+            "address": "Piazza Navona",
+            "lat": 41.8992,
+            "lng": 12.4731
+        },
+        "host": {
+            "_id": "u101",
+            "fullname": "Dudi Ganz",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg"
+        },
+        "rate": 4.6,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Watching the plaza from our balcony was magic.",
+                "rate": 5,
+                "by": {
+                    "fullname": "Alessia",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/29.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "London Notting Hill Colorful House",
+        "type": "House",
+        "imgUrl": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1740&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?q=80&w=870&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1562790351-d273a961e0e9?q=80&w=930&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1589923158776-cb4485d99fd6?q=80&w=928&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=1740&auto=format&fit=crop"
+        ],
+        "price": 670,
+        "capacity": 5,
+        "bedrooms": 2,
+        "beds": 3,
+        "bathrooms": 2,
+        "amenities": [
+            "Wifi",
+            "Kitchen",
+            "GardenView",
+            "Heating",
+            "Washer",
+            "Dryer",
+            "SelfCheckIn",
+            "TV"
+        ],
+        "labels": [
+            "Charming",
+            "Quiet",
+            "Iconic"
+        ],
+        "loc": {
+            "country": "United Kingdom",
+            "countryCode": "GB",
+            "city": "London",
+            "address": "Portobello Rd",
+            "lat": 51.5170,
+            "lng": -0.2030
+        },
+        "host": {
+            "_id": "u103",
+            "fullname": "Jonathan Levi",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg"
+        },
+        "rate": 4.8,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Just like the movies. Beautiful and peaceful.",
+                "rate": 5,
+                "by": {
+                    "fullname": "Charlotte",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/22.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "NYC Greenwich Village Studio",
+        "type": "Studio",
+        "imgUrl": "https://images.unsplash.com/photo-1502672023488-70e25813eb80?q=80&w=1560&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1502672023488-70e25813eb80?q=80&w=1560&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1499916078039-922301b0eb9b?q=80&w=1480&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1524061614234-84496375b6ce?q=80&w=1548&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=1560&auto=format&fit=crop"
+        ],
+        "price": 495,
+        "capacity": 2,
+        "bedrooms": 1,
+        "beds": 1,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "Kitchen",
+            "Heating",
+            "Essentials",
+            "AirConditioning",
+            "SmokeDetector",
+            "Iron"
+        ],
+        "labels": [
+            "Historic",
+            "Vibrant",
+            "Charming"
+        ],
+        "loc": {
+            "country": "United States",
+            "countryCode": "US",
+            "city": "New York",
+            "address": "W 4th St",
+            "lat": 40.7335,
+            "lng": -74.0030
+        },
+        "host": {
+            "_id": "u102",
+            "fullname": "Michal Ohayon",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/2.jpg"
+        },
+        "rate": 4.8,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "The heart of the Village! Small but perfectly formed.",
+                "rate": 5,
+                "by": {
+                    "fullname": "James",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/5.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Paris Latin Quarter Loft",
+        "type": "Loft",
+        "imgUrl": "https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=1740&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1513519245088-0e12902e35ca?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=1742&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?q=80&w=1734&auto=format&fit=crop"
+        ],
+        "price": 530,
+        "capacity": 3,
+        "bedrooms": 1,
+        "beds": 2,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "Kitchen",
+            "Heating",
+            "Essentials",
+            "HairDryer",
+            "Bathtub",
+            "SelfCheckIn"
+        ],
+        "labels": [
+            "Intellectual",
+            "Bohemian"
+        ],
+        "loc": {
+            "country": "France",
+            "countryCode": "FR",
+            "city": "Paris",
+            "address": "Rue Mouffetard",
+            "lat": 48.8420,
+            "lng": 2.3486
+        },
+        "host": {
+            "_id": "u103",
+            "fullname": "Jonathan Levi",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg"
+        },
+        "rate": 4.7,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Wonderful vibe and lots of student cafes nearby.",
+                "rate": 5,
+                "by": {
+                    "fullname": "Luc",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/7.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Tokyo Harajuku Kawaii Suite",
+        "type": "Suite",
+        "imgUrl": "https://images.unsplash.com/photo-1524230572899-a752b3835840?q=80&w=1636&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1524230572899-a752b3835840?q=80&w=1636&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1505691723518-36a5ac3be353?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?q=80&w=1738&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1887&auto=format&fit=crop"
+        ],
+        "price": 410,
+        "capacity": 2,
+        "bedrooms": 1,
+        "beds": 2,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "AirConditioning",
+            "Washer",
+            "Dryer",
+            "TV",
+            "SecurityCameras",
+            "Essentials"
+        ],
+        "labels": [
+            "Trendy",
+            "Colorful",
+            "Youthful"
+        ],
+        "loc": {
+            "country": "Japan",
+            "countryCode": "JP",
+            "city": "Tokyo",
+            "address": "Takeshita St",
+            "lat": 35.6715,
+            "lng": 139.7030
+        },
+        "host": {
+            "_id": "u104",
+            "fullname": "Sarah Cohen",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/4.jpg"
+        },
+        "rate": 4.5,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "The location is crazy! So much fun.",
+                "rate": 5,
+                "by": {
+                    "fullname": "Yuki",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/8.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Rome Colosseum View Penthouse",
+        "type": "Apartment",
+        "imgUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?q=80&w=1996&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1552832230-c0197dd311b5?q=80&w=1996&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1529260830199-42c24126f198?q=80&w=1752&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1512918766671-56f0b1733c06?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1740&auto=format&fit=crop"
+        ],
+        "price": 880,
+        "capacity": 6,
+        "bedrooms": 3,
+        "beds": 4,
+        "bathrooms": 2,
+        "amenities": [
+            "Wifi",
+            "Kitchen",
+            "AirConditioning",
+            "Heating",
+            "DiningTable",
+            "HotTub",
+            "Elevator"
+        ],
+        "labels": [
+            "Iconic",
+            "Luxury",
+            "Large Group"
+        ],
+        "loc": {
+            "country": "Italy",
+            "countryCode": "IT",
+            "city": "Rome",
+            "address": "Via dei Fori Imperiali",
+            "lat": 41.8902,
+            "lng": 12.4922
+        },
+        "host": {
+            "_id": "u101",
+            "fullname": "Dudi Ganz",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg"
+        },
+        "rate": 4.9,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Unforgettable view of the Colosseum from the terrace.",
+                "rate": 5,
+                "by": {
+                    "fullname": "Enzo",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/9.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Eilat Orchid Villa",
+        "type": "Villa",
+        "imgUrl": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1740&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=1742&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1613977257363-707ba9348227?q=80&w=1740&auto=format&fit=crop"
+        ],
+        "price": 1100,
+        "capacity": 6,
+        "bedrooms": 3,
+        "beds": 4,
+        "bathrooms": 2,
+        "amenities": [
+            "Wifi",
+            "AirConditioning",
+            "Pool",
+            "Kitchen",
+            "BBQGrill",
+            "parking",
+            "TV",
+            "HotTub",
+            "SunLoungers"
+        ],
+        "labels": [
+            "Luxury",
+            "Family",
+            "Sea View"
+        ],
+        "loc": {
+            "country": "Israel",
+            "countryCode": "IL",
+            "city": "Eilat",
+            "address": "Mishol HaShaked",
+            "lat": 29.5500,
+            "lng": 34.9450
+        },
+        "host": {
+            "_id": "u101",
+            "fullname": "Dudi Ganz",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg"
+        },
+        "rate": 4.8,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Perfect for a family getaway. The pool is amazing!",
+                "rate": 5,
+                "by": {
+                    "fullname": "Noam",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "name": "London West End Theater Flat",
+        "type": "Apartment",
+        "imgUrl": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=1740&auto=format&fit=crop",
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1554200876-56c2f25224fa?q=80&w=1740&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1748&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=1742&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1515263487990-61b07816b324?q=80&w=1740&auto=format&fit=crop"
+        ],
+        "price": 590,
+        "capacity": 4,
+        "bedrooms": 2,
+        "beds": 2,
+        "bathrooms": 1,
+        "amenities": [
+            "Wifi",
+            "Heating",
+            "Kitchen",
+            "Elevator",
+            "Washer",
+            "Dryer",
+            "Essentials",
+            "RoomDarkeningShades"
+        ],
+        "labels": [
+            "Theater District",
+            "Central",
+            "Modern"
+        ],
+        "loc": {
+            "country": "United Kingdom",
+            "countryCode": "GB",
+            "city": "London",
+            "address": "Shaftesbury Ave",
+            "lat": 51.5115,
+            "lng": -0.1310
+        },
+        "host": {
+            "_id": "u102",
+            "fullname": "Michal Ohayon",
+            "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/2.jpg"
+        },
+        "rate": 4.7,
+        "reviews": [
+            {
+                "at": 1737801654000,
+                "txt": "Best location for seeing shows. Very clean!",
+                "rate": 5,
+                "by": {
+                    "fullname": "Sarah J.",
+                    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/55.jpg"
+                }
+            }
+        ]
+    }
+]

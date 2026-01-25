@@ -44,7 +44,7 @@ async function addStayMsg(stayId, txt) {
 
 function getEmptyStay() {
     return {
-        vendor: 'Susita-' + (Date.now() % 1000),
+        name: 'Susita-' + (Date.now() % 1000),
         price: getRandomIntInclusive(1000, 9000),
     }
 }

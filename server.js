@@ -32,7 +32,8 @@ if (process.env.NODE_ENV === 'production') {
     }
     app.use(cors(corsOptions))
 }
-app.all('*all', setupAsyncLocalStorage)
+// app.all('*all', setupAsyncLocalStorage)
+app.use(setupAsyncLocalStorage)
 
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
@@ -49,6 +50,10 @@ setupSocketAPI(server)
 app.get('/*all', (req, res) => {
     res.sendFile(path.resolve('public/index.html'))
 })
+// app.get('*', (req, res) => {
+//     res.sendFile(path.resolve('public/index.html'))
+// })
+
 
 import { logger } from './services/logger.service.js'
 const port = process.env.PORT || 3030
