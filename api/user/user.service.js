@@ -1,15 +1,16 @@
-import {dbService} from '../../services/db.service.js'
-import {logger} from '../../services/logger.service.js'
-import {reviewService} from '../review/review.service.js'
+import { dbService } from '../../services/db.service.js'
+import { logger } from '../../services/logger.service.js'
+import { reviewService } from '../review/review.service.js'
 import { ObjectId } from 'mongodb'
 
 export const userService = {
-	add, // Create (Signup)
-	getById, // Read (Profile page)
-	update, // Update (Edit profile)
-	remove, // Delete (remove user)
-	query, // List (of users)
-	getByUsername, // Used for Login
+    add, // Create (Signup)
+    getById, // Read (Profile page)
+    update, // Update (Edit profile)
+    remove, // Delete (remove user)
+    query, // List (of users)
+    getByUsername, // Used for Login
+    queryOne,
 }
 
 async function query(filterBy = {}) {
@@ -56,14 +57,14 @@ async function getById(userId) {
 }
 
 async function getByUsername(username) {
-	try {
-		const collection = await dbService.getCollection('user')
-		const user = await collection.findOne({ username })
-		return user
-	} catch (err) {
-		logger.error(`while finding user by username: ${username}`, err)
-		throw err
-	}
+    try {
+        const collection = await dbService.getCollection('user')
+        const user = await collection.findOne({ username })
+        return user
+    } catch (err) {
+        logger.error(`while finding user by username: ${username}`, err)
+        throw err
+    }
 }
 
 async function remove(userId) {
@@ -80,10 +81,15 @@ async function remove(userId) {
 
 async function update(user) {
     try {
-        // peek only updatable properties
         const userToSave = {
-            _id: ObjectId.createFromHexString(user._id), // needed for the returnd obj
-            fullname: user.fullname,
+            _id: ObjectId.createFromHexString(user._id),
+            firstName: user.firstName,
+            lastName: user.lastName,
+            fullname: `${user.firstName} ${user.lastName}`,
+            email: user.email,
+            phone: user.phone,
+            imgUrl: user.imgUrl,
+            birthDate: user.birthDate,
             score: user.score,
         }
         const collection = await dbService.getCollection('user')
@@ -96,40 +102,57 @@ async function update(user) {
 }
 
 async function add(user) {
-	try {
-		// peek only updatable fields!
-		const userToAdd = {
-			username: user.username,
-			password: user.password,
-			fullname: user.fullname,
-			imgUrl: user.imgUrl,
-			isAdmin: user.isAdmin,
-			score: 100,
-		}
-		const collection = await dbService.getCollection('user')
-		await collection.insertOne(userToAdd)
-		return userToAdd
-	} catch (err) {
-		logger.error('cannot add user', err)
-		throw err
-	}
+    try {
+        const userToAdd = {
+            email: user.email,
+            phone: user.phone || '',
+            // password: user.password || '', 
+            firstName: user.firstName,
+            lastName: user.lastName,
+            fullname: `${user.firstName} ${user.lastName}`,
+            birthDate: user.birthDate,
+            imgUrl: user.imgUrl || '',
+            isAdmin: user.isAdmin || false,
+            score: 100,
+        }
+        const collection = await dbService.getCollection('user')
+        await collection.insertOne(userToAdd)
+        return userToAdd
+    } catch (err) {
+        logger.error('cannot add user', err)
+        throw err
+    }
 }
 
 function _buildCriteria(filterBy) {
-	const criteria = {}
-	if (filterBy.txt) {
-		const txtCriteria = { $regex: filterBy.txt, $options: 'i' }
-		criteria.$or = [
-			{
-				username: txtCriteria,
-			},
-			{
-				fullname: txtCriteria,
-			},
-		]
-	}
-	if (filterBy.minBalance) {
-		criteria.score = { $gte: filterBy.minBalance }
-	}
-	return criteria
+    const criteria = {}
+   if (filterBy.txt) {
+        const txtCriteria = { $regex: filterBy.txt, $options: 'i' }
+        criteria.$or = [
+            { email: txtCriteria },
+            { firstName: txtCriteria },
+            { lastName: txtCriteria },
+            { fullname: txtCriteria },
+            { phone: txtCriteria }
+        ]
+    }
+    return criteria
+}
+
+async function queryOne({ email, phone }) {
+    try {
+        const collection = await dbService.getCollection('user')
+        
+        const criteria = {}
+        if (email) criteria.email = email
+        if (phone) criteria.phone = phone
+        
+        if (Object.keys(criteria).length === 0) return null
+
+        const user = await collection.findOne(criteria)
+        return user
+    } catch (err) {
+        logger.error(`while finding user by email/phone`, err)
+        throw err
+    }
 }
