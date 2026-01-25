@@ -17,16 +17,11 @@ export const stayService = {
 	removeStayMsg,
 }
 
-async function query(filterBy = { txt: '' }) {
+async function query(filterBy = {}) {
 	try {
 		const criteria = _buildCriteria(filterBy)
-		const sort = _buildSort(filterBy)
-
 		const collection = await dbService.getCollection('stay')
-		var stayCursor = await collection.find(criteria, { sort })
-
-		const stays = await stayCursor.toArray()
-		console.log(`Found ${stays.length} stays`)
+		var stays = await collection.find(criteria).toArray()
 		return stays
 	} catch (err) {
 		logger.error('cannot find stays', err)
@@ -128,10 +123,35 @@ async function removeStayMsg(stayId, msgId) {
 }
 
 function _buildCriteria(filterBy) {
-	const criteria = {
-		name: { $regex: filterBy.txt, $options: 'i' },
-	}
+	const criteria = {}
 
+	if (filterBy.txt) {
+		const searchWord = filterBy.txt.split(',')[0].trim()
+		criteria.$or = [
+			{ name: { $regex: searchWord, $options: 'i' } },
+			{ type: { $regex: searchWord, $options: 'i' } },
+			{ 'loc.city': { $regex: searchWord, $options: 'i' } },
+			{ 'loc.address': { $regex: searchWord, $options: 'i' } },
+			{ 'loc.country': { $regex: searchWord, $options: 'i' } }
+		]
+	}
+	if (filterBy.minCapacity) {
+		criteria.capacity = { $gte: +filterBy.minCapacity }
+	}
+	if (filterBy.from && filterBy.to) {
+		let fromTimestamp = isNaN(filterBy.from) ? new Date(filterBy.from).getTime() : +filterBy.from
+		let toTimestamp = isNaN(filterBy.to) ? new Date(filterBy.to).getTime() : +filterBy.to
+
+		if (!isNaN(fromTimestamp) && !isNaN(toTimestamp)) {
+			criteria.availableDates = {
+				$elemMatch: {
+					from: { $lte: fromTimestamp },
+					to: { $gte: toTimestamp }
+				}
+			}
+		}
+	}
+	console.log('Criteria is:', JSON.stringify(criteria))
 	return criteria
 }
 

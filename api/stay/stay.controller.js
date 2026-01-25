@@ -2,16 +2,18 @@ import { logger } from '../../services/logger.service.js'
 import { stayService } from './stay.service.js'
 
 export async function getStays(req, res) {
-	try {
-		const filterBy = {
-			txt: req.query.txt || ''
-		}
-		const stays = await stayService.query(filterBy)
-		res.json(stays)
-	} catch (err) {
-		logger.error('Failed to get stays', err)
-		res.status(400).send({ err: 'Failed to get stays' })
-	}
+    try {
+        const filterBy = {
+            txt: req.query.txt || '',
+            minCapacity: req.query.minCapacity || 0,
+            from: req.query.from || null,
+            to: req.query.to || null
+        }
+        const stays = await stayService.query(filterBy)
+        res.json(stays)
+    } catch (err) {
+        res.status(500).send({ err: 'Failed to get stays' })
+    }
 }
 
 export async function getStayById(req, res) {
