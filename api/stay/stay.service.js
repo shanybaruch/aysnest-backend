@@ -151,7 +151,7 @@ function _buildCriteria(filterBy) {
 			}
 		}
 	}
-	console.log('Criteria is:', JSON.stringify(criteria))
+	// console.log('Criteria is:', JSON.stringify(criteria))
 	return criteria
 }
 
