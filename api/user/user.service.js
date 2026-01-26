@@ -81,20 +81,33 @@ async function remove(userId) {
 
 async function update(user) {
     try {
-        const userToSave = {
-            _id: ObjectId.createFromHexString(user._id),
-            firstName: user.firstName,
-            lastName: user.lastName,
-            fullname: `${user.firstName} ${user.lastName}`,
-            email: user.email,
-            phone: user.phone,
-            imgUrl: user.imgUrl,
-            birthDate: user.birthDate,
-            score: user.score,
-        }
         const collection = await dbService.getCollection('user')
-        await collection.updateOne({ _id: userToSave._id }, { $set: userToSave })
-        return userToSave
+        
+        const userEntity = await collection.findOne({ _id: ObjectId.createFromHexString(user._id) })
+        if (!userEntity) throw new Error('User not found')
+
+        const userToSave = {
+            ...userEntity, 
+            firstName: user.firstName || userEntity.firstName,
+            lastName: user.lastName || userEntity.lastName,
+            fullname: (user.firstName && user.lastName) ? `${user.firstName} ${user.lastName}` : userEntity.fullname,
+            email: user.email || userEntity.email,
+            phone: user.phone || userEntity.phone,
+            imgUrl: user.imgUrl || userEntity.imgUrl,
+            birthDate: user.birthDate || userEntity.birthDate,
+            saved: user.saved || userEntity.saved || [], 
+            score: user.score !== undefined ? user.score : userEntity.score,
+        }
+
+        await collection.updateOne(
+            { _id: userToSave._id }, 
+            { $set: userToSave }
+        )
+
+        const returnedUser = { ...userToSave }
+        delete returnedUser.password
+        return returnedUser
+
     } catch (err) {
         logger.error(`cannot update user ${user._id}`, err)
         throw err
@@ -106,7 +119,7 @@ async function add(user) {
         const userToAdd = {
             email: user.email,
             phone: user.phone || '',
-            // password: user.password || '', 
+            password: user.password || '', 
             firstName: user.firstName,
             lastName: user.lastName,
             fullname: `${user.firstName} ${user.lastName}`,
@@ -114,6 +127,7 @@ async function add(user) {
             imgUrl: user.imgUrl || '',
             isAdmin: user.isAdmin || false,
             score: 100,
+            saved: [],
         }
         const collection = await dbService.getCollection('user')
         await collection.insertOne(userToAdd)
@@ -126,7 +140,7 @@ async function add(user) {
 
 function _buildCriteria(filterBy) {
     const criteria = {}
-   if (filterBy.txt) {
+    if (filterBy.txt) {
         const txtCriteria = { $regex: filterBy.txt, $options: 'i' }
         criteria.$or = [
             { email: txtCriteria },
@@ -142,11 +156,11 @@ function _buildCriteria(filterBy) {
 async function queryOne({ email, phone }) {
     try {
         const collection = await dbService.getCollection('user')
-        
+
         const criteria = {}
         if (email) criteria.email = email
         if (phone) criteria.phone = phone
-        
+
         if (Object.keys(criteria).length === 0) return null
 
         const user = await collection.findOne(criteria)

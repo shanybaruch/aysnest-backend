@@ -3,6 +3,11 @@ import { logger } from '../../services/logger.service.js'
 
 export async function getOrders(req, res) {
     try {
+        const { loggedinUser } = req
+        let filterBy = {}
+        if (!loggedinUser.isAdmin) {
+            filterBy = { 'buyer._id': loggedinUser._id }
+        }
         const orders = await orderService.query(req.query)
         res.json(orders)
     } catch (err) {
