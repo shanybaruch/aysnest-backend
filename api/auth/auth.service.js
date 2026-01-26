@@ -11,6 +11,7 @@ export const authService = {
 	login,
 	getLoginToken,
 	validateToken,
+	checkExists,
 }
 
 // async function login(username, password) {
@@ -94,4 +95,9 @@ function validateToken(loginToken) {
 		console.log('Invalid login token')
 	}
 	return null
+}
+
+async function checkExists(identifier) {
+    const user = await userService.queryOne({ email: identifier, phone: identifier })
+    return user
 }

@@ -39,6 +39,7 @@ app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/review', reviewRoutes)
 app.use('/api/stay', stayRoutes)
+app.use('/api/order', orderRoutes)
 
 setupSocketAPI(server)
 
@@ -56,6 +57,7 @@ app.get('/*all', (req, res) => {
 
 
 import { logger } from './services/logger.service.js'
+import { orderRoutes } from './api/order/order.routes.js'
 const port = process.env.PORT || 3030
 
 server.listen(port, () => {

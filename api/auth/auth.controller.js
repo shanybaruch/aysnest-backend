@@ -36,7 +36,6 @@ import { logger } from '../../services/logger.service.js'
 // 	}
 // }
 export async function login(req, res) {
-	// הפרונטנד שולח אובייקט שיש בו או email או phone
 	const credentials = req.body
 	try {
 		const user = await authService.login(credentials)
@@ -74,4 +73,15 @@ export async function logout(req, res) {
 	} catch (err) {
 		res.status(400).send({ err: 'Failed to logout' })
 	}
+}
+
+export async function checkUser(req, res) {
+    const { identifier } = req.query // נשלח את זה כ-Query string: ?identifier=055...
+    try {
+        const user = await authService.checkExists(identifier)
+        res.json({ exists: !!user })
+    } catch (err) {
+        logger.error('Failed to check user ' + err)
+        res.status(400).send({ err: 'Failed to check user' })
+    }
 }
