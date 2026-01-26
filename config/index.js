@@ -11,4 +11,4 @@ if (process.env.NODE_ENV === 'production') {
 }
 // config.isGuestMode = true
 
-
+export default config
