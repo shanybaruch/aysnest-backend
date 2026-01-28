@@ -82,12 +82,12 @@ async function remove(userId) {
 async function update(user) {
     try {
         const collection = await dbService.getCollection('user')
-        
+
         const userEntity = await collection.findOne({ _id: ObjectId.createFromHexString(user._id) })
         if (!userEntity) throw new Error('User not found')
 
         const userToSave = {
-            ...userEntity, 
+            ...userEntity,
             firstName: user.firstName || userEntity.firstName,
             lastName: user.lastName || userEntity.lastName,
             fullname: (user.firstName && user.lastName) ? `${user.firstName} ${user.lastName}` : userEntity.fullname,
@@ -95,13 +95,13 @@ async function update(user) {
             phone: user.phone || userEntity.phone,
             imgUrl: user.imgUrl || userEntity.imgUrl,
             birthDate: user.birthDate || userEntity.birthDate,
-            saved: user.saved || userEntity.saved || [], 
+            saved: user.saved || userEntity.saved || [],
             score: user.score !== undefined ? user.score : userEntity.score,
             trips: user.trips || userEntity.trips || [],
         }
 
         await collection.updateOne(
-            { _id: userToSave._id }, 
+            { _id: userToSave._id },
             { $set: userToSave }
         )
 
@@ -120,7 +120,7 @@ async function add(user) {
         const userToAdd = {
             email: user.email,
             phone: user.phone || '',
-            password: user.password || '', 
+            password: user.password || '',
             firstName: user.firstName,
             lastName: user.lastName,
             fullname: `${user.firstName} ${user.lastName}`,
@@ -159,11 +159,13 @@ async function queryOne({ email, phone }) {
     try {
         const collection = await dbService.getCollection('user')
 
-        const criteria = {}
-        if (email) criteria.email = email
-        if (phone) criteria.phone = phone
-
-        if (Object.keys(criteria).length === 0) return null
+        if (!email && !phone) return null
+        const criteria = {
+            $or: []
+        }
+        if (email) criteria.$or.push({ email })
+        if (phone) criteria.$or.push({ phone })
+        if (criteria.$or.length === 0) return null
 
         const user = await collection.findOne(criteria)
         return user

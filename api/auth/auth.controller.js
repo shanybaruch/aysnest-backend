@@ -76,7 +76,7 @@ export async function logout(req, res) {
 }
 
 export async function checkUser(req, res) {
-    const { identifier } = req.query // נשלח את זה כ-Query string: ?identifier=055...
+    const { identifier } = req.query 
     try {
         const user = await authService.checkExists(identifier)
         res.json({ exists: !!user })
