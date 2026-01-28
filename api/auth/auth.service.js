@@ -14,54 +14,33 @@ export const authService = {
 	checkExists,
 }
 
-// async function login(username, password) {
-// 	logger.debug(`auth.service - login with username: ${username}`)
-
-// 	const user = await userService.getByUsername(username)
-// 	if (!user) return Promise.reject('Invalid username or password')
-
-// 	delete user.password
-// 	user._id = user._id.toString()
-// 	return user
-// }
-
-// async function signup({ username, password, fullname, imgUrl, isAdmin }) {
-// 	const saltRounds = 10
-
-// 	logger.debug(`auth.service - signup with username: ${username}, fullname: ${fullname}`)
-// 	if (!username || !password || !fullname) return Promise.reject('Missing required signup information')
-
-// 	const userExist = await userService.getByUsername(username)
-// 	if (userExist) return Promise.reject('Username already taken')
-
-// 	const hash = await bcrypt.hash(password, saltRounds)
-// 	return userService.add({ username, password: hash, fullname, imgUrl, isAdmin })
-// }
 async function login(credentials) {
-	const { email, phone } = credentials
-	logger.debug(`auth.service - login with email: ${email} or phone: ${phone}`)
+	const { email, phone, password } = credentials
 
 	const user = await userService.queryOne({ email, phone })
 	if (!user) return Promise.reject('Invalid credentials')
 
+	const isMatch = await bcrypt.compare(password, user.password)
+	if (!isMatch) return Promise.reject('Invalid credentials')
 
-	delete user.password
-	user._id = user._id.toString()
-	return user
+	const userToReturn = { ...user }
+	delete userToReturn.password
+	return userToReturn
 }
 
 async function signup(userToSignup) {
-	const { email, phone, firstName, lastName, birthDate } = userToSignup
-
+	const { email, phone, firstName, lastName, birthDate, password } = userToSignup
+	const saltRounds = 10
 	logger.debug(`auth.service - signup for: ${firstName} ${lastName}`)
 
-	if (!email || !firstName || !lastName) {
+	if (!email || !firstName || !lastName || !password) {
 		return Promise.reject('Missing required signup information')
 	}
 
 	const userExist = await userService.queryOne({ email, phone })
 	if (userExist) return Promise.reject('User already exists')
 
+	const hash = await bcrypt.hash(password, saltRounds)
 	const fullname = `${firstName} ${lastName}`
 
 	return userService.add({
@@ -69,6 +48,7 @@ async function signup(userToSignup) {
 		phone,
 		firstName,
 		lastName,
+		password: hash,
 		fullname,
 		birthDate,
 		imgUrl: userToSignup.imgUrl || '',
@@ -98,6 +78,6 @@ function validateToken(loginToken) {
 }
 
 async function checkExists(identifier) {
-    const user = await userService.queryOne({ email: identifier, phone: identifier })
-    return user
+	const user = await userService.queryOne({ email: identifier, phone: identifier })
+	return user
 }

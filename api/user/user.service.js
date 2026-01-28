@@ -97,6 +97,7 @@ async function update(user) {
             birthDate: user.birthDate || userEntity.birthDate,
             saved: user.saved || userEntity.saved || [], 
             score: user.score !== undefined ? user.score : userEntity.score,
+            trips: user.trips || userEntity.trips || [],
         }
 
         await collection.updateOne(
@@ -128,6 +129,7 @@ async function add(user) {
             isAdmin: user.isAdmin || false,
             score: 100,
             saved: [],
+            trips: [],
         }
         const collection = await dbService.getCollection('user')
         await collection.insertOne(userToAdd)
