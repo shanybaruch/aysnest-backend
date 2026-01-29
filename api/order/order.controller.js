@@ -5,10 +5,14 @@ export async function getOrders(req, res) {
     try {
         const { loggedinUser } = req
         let filterBy = {}
-        if (!loggedinUser.isAdmin) {
-            filterBy = { 'buyer._id': loggedinUser._id }
+
+        if (req.query.hostId) {
+            filterBy.hostId = req.query.hostId
         }
-        const orders = await orderService.query(req.query)
+        else if (req.query.buyerId) {
+            filterBy['buyer._id'] = req.query.buyerId
+        }
+        const orders = await orderService.query(filterBy)
         res.json(orders)
     } catch (err) {
         logger.error('Failed to get orders', err)
@@ -27,5 +31,16 @@ export async function addOrder(req, res) {
     } catch (err) {
         logger.error('Failed to add order', err)
         res.status(400).send({ err: 'Failed to add order' })
+    }
+}
+
+export async function updateOrder(req, res) {
+    try {
+        const order = req.body
+        const updatedOrder = await orderService.update(order)
+        res.json(updatedOrder)
+    } catch (err) {
+        logger.error('Failed to update order', err)
+        res.status(400).send({ err: 'Failed to update order' })
     }
 }

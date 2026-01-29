@@ -8,16 +8,7 @@ export const orderService = {
     update,
 }
 
-// async function add(order) {
-//     try {
-//         const collection = await dbService.getCollection('order') 
-//         await collection.insertOne(order)
-//         return order
-//     } catch (err) {
-//         logger.error('cannot insert order', err)
-//         throw err
-//     }
-// }
+
 async function add(order) {
     try {
         const collection = await dbService.getCollection('order')
@@ -41,19 +32,19 @@ async function query(filterBy = {}) {
     }
 }
 
-async function update(user) {
+async function update(order) {
     try {
-        const userToSave = {
-            _id: ObjectId(user._id),
-            fullname: user.fullname,
-            imgUrl: user.imgUrl,
-            trips: user.trips || [] 
+        const orderToSave = {
+            status: order.status
         }
-        const collection = await dbService.getCollection('user')
-        await collection.updateOne({ _id: userToSave._id }, { $set: userToSave })
-        return userToSave
+        const collection = await dbService.getCollection('order')
+        await collection.updateOne(
+            { _id: new ObjectId(order._id) },
+            { $set: orderToSave }
+        )
+        return order
     } catch (err) {
-        logger.error(`cannot update user ${user._id}`, err)
+        logger.error(`cannot update order ${order._id}`, err)
         throw err
     }
 }
