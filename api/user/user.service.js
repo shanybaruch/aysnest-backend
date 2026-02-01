@@ -11,6 +11,7 @@ export const userService = {
     query, // List (of users)
     getByUsername, // Used for Login
     queryOne,
+    addTrip,
 }
 
 async function query(filterBy = {}) {
@@ -171,6 +172,20 @@ async function queryOne({ email, phone }) {
         return user
     } catch (err) {
         logger.error(`while finding user by email/phone`, err)
+        throw err
+    }
+}
+
+
+async function addTrip(userId, trip) {
+    try {
+        const collection = await dbService.getCollection('user')
+        await collection.updateOne(
+            { _id: new ObjectId(userId) },
+            { $push: { trips: trip } }
+        )
+    } catch (err) {
+        logger.error(`cannot add trip to user ${userId}`, err)
         throw err
     }
 }
