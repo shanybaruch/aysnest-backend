@@ -46,13 +46,13 @@ async function getById(stayId) {
 
 async function remove(stayId) {
 	const { loggedinUser } = asyncLocalStorage.getStore()
-	const { _id: ownerId, isAdmin } = loggedinUser
+	const { _id: hostId, isAdmin } = loggedinUser
 
 	try {
 		const criteria = {
 			_id: ObjectId.createFromHexString(stayId),
 		}
-		if (!isAdmin) criteria['owner._id'] = ownerId
+		if (!isAdmin) criteria['host._id'] = hostId
 
 		const collection = await dbService.getCollection('stay')
 		const res = await collection.deleteOne(criteria)
@@ -78,12 +78,14 @@ async function add(stay) {
 }
 
 async function update(stay) {
-	const stayToSave = { name: stay.name, speed: stay.speed }
-
 	try {
-		const criteria = { _id: ObjectId.createFromHexString(stay._id) }
+		const stayId = stay._id
+		const stayToSave = { ...stay }
+		delete stayToSave._id
 
+		const criteria = { _id: ObjectId.createFromHexString(stayId) }
 		const collection = await dbService.getCollection('stay')
+
 		await collection.updateOne(criteria, { $set: stayToSave })
 
 		return stay
@@ -149,6 +151,13 @@ function _buildCriteria(filterBy) {
 					to: { $gte: toTimestamp }
 				}
 			}
+		}
+	}
+	if (filterBy.hostId) {
+		try {
+			criteria['host._id'] = new ObjectId(filterBy.hostId)
+		} catch (err) {
+			console.error('Invalid hostId format:', err)
 		}
 	}
 	// console.log('Criteria is:', JSON.stringify(criteria))

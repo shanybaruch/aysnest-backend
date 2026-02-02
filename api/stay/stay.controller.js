@@ -2,18 +2,19 @@ import { logger } from '../../services/logger.service.js'
 import { stayService } from './stay.service.js'
 
 export async function getStays(req, res) {
-    try {
-        const filterBy = {
-            txt: req.query.txt || '',
-            minCapacity: req.query.minCapacity || 0,
-            from: req.query.from || null,
-            to: req.query.to || null
-        }
-        const stays = await stayService.query(filterBy)
-        res.json(stays)
-    } catch (err) {
-        res.status(500).send({ err: 'Failed to get stays' })
-    }
+	try {
+		const filterBy = {
+			txt: req.query.txt || '',
+			minCapacity: req.query.minCapacity || 0,
+			from: req.query.from || null,
+			to: req.query.to || null,
+			hostId: req.query.hostId || ''
+		}
+		const stays = await stayService.query(filterBy)
+		res.json(stays)
+	} catch (err) {
+		res.status(500).send({ err: 'Failed to get stays' })
+	}
 }
 
 export async function getStayById(req, res) {
@@ -29,12 +30,19 @@ export async function getStayById(req, res) {
 
 export async function addStay(req, res) {
 	const { loggedinUser, body } = req
-	const stay = {
-		name: body.name,
-		speed: body.speed
-	}
+
 	try {
-		stay.owner = loggedinUser
+		const stay = {
+			...body,
+			host: {
+				_id: loggedinUser._id,
+				fullname: loggedinUser.fullname,
+				imgUrl: loggedinUser.imgUrl
+			},
+			msgs: [],
+			reviewsAvg: 0
+		}
+
 		const addedStay = await stayService.add(stay)
 		res.json(addedStay)
 	} catch (err) {
@@ -45,12 +53,12 @@ export async function addStay(req, res) {
 
 export async function updateStay(req, res) {
 	const { loggedinUser, body: stay } = req
-    const { _id: userId, isAdmin } = loggedinUser
+	const { _id: userId, isAdmin } = loggedinUser
 
-    if(!isAdmin && stay.owner._id !== userId) {
-        res.status(403).send('Not your stay...')
-        return
-    }
+	if (!isAdmin && stay.host._id !== userId) {
+		res.status(403).send('Not your stay...')
+		return
+	}
 
 	try {
 		const updatedStay = await stayService.update(stay)
@@ -73,20 +81,29 @@ export async function removeStay(req, res) {
 	}
 }
 
-export async function addStayMsg(req, res) {
-	const { loggedinUser } = req
-
+export async function addStayMsg(stayId, msg) {
 	try {
-		const stayId = req.params.id
-		const msg = {
-			txt: req.body.txt,
-			by: loggedinUser,
+		const criteria = { _id: ObjectId.createFromHexString(stayId) }
+		msg.id = makeId()
+		msg.createdAt = Date.now()
+
+		const collection = await dbService.getCollection('stay')
+
+		await collection.updateOne(criteria, { $push: { msgs: msg } })
+
+		const stay = await getById(stayId)
+		if (stay.msgs && stay.msgs.length > 0) {
+			const totalRate = stay.msgs.reduce((acc, m) => acc + (m.rate || 0), 0)
+			const avgRate = (totalRate / stay.msgs.length).toFixed(2)
+
+			await collection.updateOne(criteria, { $set: { reviewsAvg: +avgRate } })
+			msg.newAvg = +avgRate
 		}
-		const savedMsg = await stayService.addStayMsg(stayId, msg)
-		res.json(savedMsg)
+
+		return msg
 	} catch (err) {
-		logger.error('Failed to add stay msg', err)
-		res.status(400).send({ err: 'Failed to add stay msg' })
+		logger.error(`cannot add stay msg ${stayId}`, err)
+		throw err
 	}
 }
 
