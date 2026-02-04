@@ -58,115 +58,87 @@
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/10.jpg"
       }
     },
-      {
-      "at": {
-        "$numberLong": "1737801654000"
+    {
+      "at": 1768804862065,
+      "txt": "Great value for money, highly recommend!",
+      "rate": 4.9,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/45.jpg"
       },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769202601161,
       "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/27.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769754327702,
+      "txt": "Modern, quiet, and very comfortable beds.",
       "rate": 5,
       "by": {
-        "fullname": "Alice Smith",
-        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/10.jpg"
-      }
-    },  {
-      "at": {
-        "$numberLong": "1737801654000"
+        "fullname": "Noa Levi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/42.jpg"
       },
-      "txt": "Amazing view and the pool was perfect!",
-      "rate": 5,
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769184112285,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.9,
       "by": {
-        "fullname": "Alice Smith",
-        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/10.jpg"
-      }
-    },  {
-      "at": {
-        "$numberLong": "1737801654000"
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/47.jpg"
       },
-      "txt": "Amazing view and the pool was perfect!",
-      "rate": 5,
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769900282676,
+      "txt": "Super clean and well-designed. We loved every minute.",
+      "rate": 4.2,
       "by": {
-        "fullname": "Alice Smith",
-        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/10.jpg"
-      }
-    },  {
-      "at": {
-        "$numberLong": "1737801654000"
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/33.jpg"
       },
-      "txt": "Amazing view and the pool was perfect!",
-      "rate": 5,
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767638193008,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.3,
       "by": {
-        "fullname": "Alice Smith",
-        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/10.jpg"
-      }
-    },  {
-      "at": {
-        "$numberLong": "1737801654000"
+        "fullname": "Guy Shani",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/16.jpg"
       },
-      "txt": "Amazing view and the pool was perfect!",
-      "rate": 5,
-      "by": {
-        "fullname": "Alice Smith",
-        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/10.jpg"
-      }
-    },  {
-      "at": {
-        "$numberLong": "1737801654000"
-      },
-      "txt": "Amazing view and the pool was perfect!",
-      "rate": 5,
-      "by": {
-        "fullname": "Alice Smith",
-        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/10.jpg"
-      }
-    },  {
-      "at": {
-        "$numberLong": "1737801654000"
-      },
-      "txt": "Amazing view and the pool was perfect!",
-      "rate": 5,
-      "by": {
-        "fullname": "Alice Smith",
-        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/10.jpg"
-      }
-    },  {
-      "at": {
-        "$numberLong": "1737801654000"
-      },
-      "txt": "Amazing view and the pool was perfect!",
-      "rate": 5,
-      "by": {
-        "fullname": "Alice Smith",
-        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/10.jpg"
-      }
-    },  {
-      "at": {
-        "$numberLong": "1737801654000"
-      },
-      "txt": "Amazing view and the pool was perfect!",
-      "rate": 5,
-      "by": {
-        "fullname": "Alice Smith",
-        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/10.jpg"
-      }
-    },  {
-      "at": {
-        "$numberLong": "1737801654000"
-      },
-      "txt": "Amazing view and the pool was perfect!",
-      "rate": 5,
-      "by": {
-        "fullname": "Alice Smith",
-        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/10.jpg"
-      }
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Perfectly positioned to enjoy the stunning Red Sea views and desert landscapes. Ideal for a relaxing sanctuary.",
   "availableDates": [
     {
-      "from": 1704067200000,
-      "to": 1830297600000
+      "from": {
+        "$numberLong": "1704067200000"
+      },
+      "to": {
+        "$numberLong": "1830297600000"
+      }
     }
-  ]
+  ],
+  "rating": 4.7,
+  "reviewStats": {
+    "cleanliness": 4.9,
+    "accuracy": 4.5,
+    "communication": 4.8,
+    "location": 4.8,
+    "checkIn": 4.8,
+    "value": 4.4
+  }
 },
 {
   "_id": {
@@ -209,9 +181,10 @@
     "lng": -73.9654
   },
   "host": {
-    "_id": "u102",
-    "fullname": "Michal Ohayon",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/2.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.5,
   "reviews": [
@@ -225,6 +198,96 @@
         "fullname": "David Green",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/13.jpg"
       }
+    },
+    {
+      "at": 1768745827486,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Noa Levi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/1.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767959484866,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.1,
+      "by": {
+        "fullname": "Guy Shani",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/48.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768757476277,
+      "txt": "Super clean and well-designed. We loved every minute.",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/8.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767916346421,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Liat Peretz",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/44.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769636509841,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Noa Levi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/10.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767824425470,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.6,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/30.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767846693156,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/35.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767760457743,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.6,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/33.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769106852166,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.5,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/13.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Live like a true New Yorker in this stylish space at the heart of the city that never sleeps. Just steps away from subway lines, iconic parks, and endless dining options.",
@@ -233,7 +296,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.42,
+  "reviewStats": {
+    "cleanliness": 4.6,
+    "accuracy": 4.2,
+    "communication": 4.2,
+    "location": 4.7,
+    "checkIn": 4.4,
+    "value": 4.4
+  }
 },
 {
   "_id": {
@@ -275,9 +347,10 @@
     "lng": 2.2945
   },
   "host": {
-    "_id": "u103",
-    "fullname": "Jonathan Levi",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.9,
   "reviews": [
@@ -291,6 +364,36 @@
         "fullname": "Clara Martin",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/17.jpg"
       }
+    },
+    {
+      "at": 1768929084780,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Liat Peretz",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/33.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768603900439,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.6,
+      "by": {
+        "fullname": "Liat Peretz",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/7.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768370973886,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/30.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Indulge in the romance of Paris from this elegant and light-filled residence. Nestled in a historic district filled with cozy bakeries and art galleries, capturing the authentic Parisian spirit.",
@@ -299,7 +402,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.48,
+  "reviewStats": {
+    "cleanliness": 4.7,
+    "accuracy": 4.5,
+    "communication": 4.3,
+    "location": 4.6,
+    "checkIn": 4.6,
+    "value": 4.2
+  }
 },
 {
   "_id": {
@@ -341,9 +453,10 @@
     "lng": 139.7005
   },
   "host": {
-    "_id": "u104",
-    "fullname": "Sarah Cohen",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/4.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.6,
   "reviews": [
@@ -357,6 +470,46 @@
         "fullname": "Kenji Tanaka",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/18.jpg"
       }
+    },
+    {
+      "at": 1769771163327,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.5,
+      "by": {
+        "fullname": "Noa Levi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/34.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769709904813,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 5,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/0.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769690739929,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/2.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769168039686,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.6,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/32.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Discover the perfect blend of tradition and high-tech living in this modern Tokyo home. Located in a dynamic district with neon lights and hidden shrines, designed for maximum comfort.",
@@ -365,7 +518,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.55,
+  "reviewStats": {
+    "cleanliness": 4.6,
+    "accuracy": 4.9,
+    "communication": 4.7,
+    "location": 4.1,
+    "checkIn": 4.3,
+    "value": 4.7
+  }
 },
 {
   "_id": {
@@ -407,9 +569,10 @@
     "lng": 12.4964
   },
   "host": {
-    "_id": "u101",
-    "fullname": "Dudi Ganz",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.3,
   "reviews": [
@@ -423,6 +586,86 @@
         "fullname": "Giulia Rossi",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/20.jpg"
       }
+    },
+    {
+      "at": 1769986794833,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/43.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769845512529,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/13.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768178335050,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/38.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768196483928,
+      "txt": "Super clean and well-designed. We loved every minute.",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/7.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767615608801,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.2,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/21.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768591040437,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 5,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/24.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769814002061,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/29.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769883999457,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/29.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Immerse yourself in history in this charming Roman dwelling. Surrounded by ancient monuments and lively piazzas, the home offers a warm atmosphere and local trattorias at your doorstep.",
@@ -431,7 +674,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.42,
+  "reviewStats": {
+    "cleanliness": 4.2,
+    "accuracy": 4.2,
+    "communication": 4.6,
+    "location": 4.4,
+    "checkIn": 4.2,
+    "value": 4.9
+  }
 },
 {
   "_id": {
@@ -474,9 +726,10 @@
     "lng": -0.1278
   },
   "host": {
-    "_id": "u102",
-    "fullname": "Michal Ohayon",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/2.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.6,
   "reviews": [
@@ -490,6 +743,36 @@
         "fullname": "Olivia Brown",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/23.jpg"
       }
+    },
+    {
+      "at": 1768669322939,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.2,
+      "by": {
+        "fullname": "Guy Shani",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/22.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768516381867,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.5,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/27.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769336653414,
+      "txt": "Great value for money, highly recommend!",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Experience the quintessential London lifestyle in this beautifully appointed home. Located in a vibrant neighborhood with easy access to iconic landmarks, local pubs, and world-class theaters.",
@@ -498,7 +781,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.5,
+  "reviewStats": {
+    "cleanliness": 4.9,
+    "accuracy": 4.1,
+    "communication": 4.9,
+    "location": 4.7,
+    "checkIn": 4.1,
+    "value": 4.3
+  }
 },
 {
   "_id": {
@@ -544,9 +836,10 @@
     "lng": 34.9262
   },
   "host": {
-    "_id": "u103",
-    "fullname": "Jonathan Levi",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.9,
   "reviews": [
@@ -560,6 +853,46 @@
         "fullname": "Itay L.",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/34.jpg"
       }
+    },
+    {
+      "at": 1767798486447,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.9,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/33.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769941269084,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/22.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768726538192,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/13.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768468536546,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.6,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/42.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Perfectly positioned to enjoy the stunning Red Sea views and desert landscapes. Ideal for a relaxing sanctuary.",
@@ -568,7 +901,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.57,
+  "reviewStats": {
+    "cleanliness": 4,
+    "accuracy": 4.7,
+    "communication": 4.1,
+    "location": 4.9,
+    "checkIn": 4.7,
+    "value": 5
+  }
 },
 {
   "_id": {
@@ -612,9 +954,10 @@
     "lng": -73.9571
   },
   "host": {
-    "_id": "u104",
-    "fullname": "Sarah Cohen",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/4.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.6,
   "reviews": [
@@ -628,6 +971,56 @@
         "fullname": "Noah K.",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/25.jpg"
       }
+    },
+    {
+      "at": 1768839700381,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Liat Peretz",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/43.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768902496987,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.9,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/47.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769550162207,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.9,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/27.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769200603012,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/26.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768304060656,
+      "txt": "Great value for money, highly recommend!",
+      "rate": 4.6,
+      "by": {
+        "fullname": "Liat Peretz",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/27.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Live like a true New Yorker in this stylish space at the heart of the city that never sleeps. Just steps away from subway lines, iconic parks, and endless dining options.",
@@ -636,7 +1029,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.62,
+  "reviewStats": {
+    "cleanliness": 4.5,
+    "accuracy": 4.8,
+    "communication": 4.3,
+    "location": 4.9,
+    "checkIn": 4.6,
+    "value": 4.6
+  }
 },
 {
   "_id": {
@@ -679,9 +1081,10 @@
     "lng": 2.3592
   },
   "host": {
-    "_id": "u101",
-    "fullname": "Dudi Ganz",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.7,
   "reviews": [
@@ -695,6 +1098,56 @@
         "fullname": "Sophie L.",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/26.jpg"
       }
+    },
+    {
+      "at": 1768684898423,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.5,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/10.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768760495960,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/39.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768764720185,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.9,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/34.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769072912503,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 5,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/21.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769488748170,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.9,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/19.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Indulge in the romance of Paris from this elegant and light-filled residence. Nestled in a historic district filled with cozy bakeries and art galleries, capturing the authentic Parisian spirit.",
@@ -703,7 +1156,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.72,
+  "reviewStats": {
+    "cleanliness": 4.8,
+    "accuracy": 4.2,
+    "communication": 4.8,
+    "location": 4.8,
+    "checkIn": 4.7,
+    "value": 5
+  }
 },
 {
   "_id": {
@@ -746,9 +1208,10 @@
     "lng": 139.7042
   },
   "host": {
-    "_id": "u102",
-    "fullname": "Michal Ohayon",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/2.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.4,
   "reviews": [
@@ -762,6 +1225,96 @@
         "fullname": "Taro Y.",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/27.jpg"
       }
+    },
+    {
+      "at": 1767665468054,
+      "txt": "Super clean and well-designed. We loved every minute.",
+      "rate": 4.6,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/32.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769092781707,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.2,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/13.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769529611662,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Liat Peretz",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/16.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769860885454,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.1,
+      "by": {
+        "fullname": "Liat Peretz",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/17.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769794969640,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.9,
+      "by": {
+        "fullname": "Liat Peretz",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/30.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769020148611,
+      "txt": "Super clean and well-designed. We loved every minute.",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Guy Shani",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/13.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769253184748,
+      "txt": "Great value for money, highly recommend!",
+      "rate": 4.2,
+      "by": {
+        "fullname": "Guy Shani",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/15.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767629237721,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/34.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768681203761,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/46.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Discover the perfect blend of tradition and high-tech living in this modern Tokyo home. Located in a dynamic district with neon lights and hidden shrines, designed for maximum comfort.",
@@ -770,7 +1323,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.55,
+  "reviewStats": {
+    "cleanliness": 4.8,
+    "accuracy": 4.8,
+    "communication": 4.2,
+    "location": 4.6,
+    "checkIn": 4,
+    "value": 4.9
+  }
 },
 {
   "_id": {
@@ -812,9 +1374,10 @@
     "lng": 12.4707
   },
   "host": {
-    "_id": "u103",
-    "fullname": "Jonathan Levi",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.8,
   "reviews": [
@@ -828,6 +1391,76 @@
         "fullname": "Marco P.",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/28.jpg"
       }
+    },
+    {
+      "at": 1769358955339,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/1.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769343384793,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/22.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768866324547,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/5.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769510127485,
+      "txt": "Great value for money, highly recommend!",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/42.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767724196992,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.1,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/28.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768644258232,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/40.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769705826484,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/6.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Immerse yourself in history in this charming Roman dwelling. Surrounded by ancient monuments and lively piazzas, the home offers a warm atmosphere and local trattorias at your doorstep.",
@@ -836,7 +1469,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.45,
+  "reviewStats": {
+    "cleanliness": 4.3,
+    "accuracy": 4.9,
+    "communication": 4.4,
+    "location": 4.4,
+    "checkIn": 4.4,
+    "value": 4.3
+  }
 },
 {
   "_id": {
@@ -879,9 +1521,10 @@
     "lng": -0.132
   },
   "host": {
-    "_id": "u104",
-    "fullname": "Sarah Cohen",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/4.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.5,
   "reviews": [
@@ -895,6 +1538,66 @@
         "fullname": "Emma W.",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/29.jpg"
       }
+    },
+    {
+      "at": 1769914516875,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/9.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769868799521,
+      "txt": "Great value for money, highly recommend!",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/43.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768100592971,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Noa Levi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/27.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769280617217,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.5,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/40.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768101430037,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Liat Peretz",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/38.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1770129841326,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.9,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/9.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Experience the quintessential London lifestyle in this beautifully appointed home. Located in a vibrant neighborhood with easy access to iconic landmarks, local pubs, and world-class theaters.",
@@ -903,7 +1606,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.5,
+  "reviewStats": {
+    "cleanliness": 4.2,
+    "accuracy": 4.7,
+    "communication": 4.3,
+    "location": 4.8,
+    "checkIn": 4.6,
+    "value": 4.4
+  }
 },
 {
   "_id": {
@@ -947,9 +1659,10 @@
     "lng": 34.951
   },
   "host": {
-    "_id": "u101",
-    "fullname": "Dudi Ganz",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 5,
   "reviews": [
@@ -963,6 +1676,76 @@
         "fullname": "Omri G.",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/30.jpg"
       }
+    },
+    {
+      "at": 1769291716748,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/16.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769559955539,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.1,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/2.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769052982877,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/39.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769332343265,
+      "txt": "Great value for money, highly recommend!",
+      "rate": 4.6,
+      "by": {
+        "fullname": "Noa Levi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/25.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767939829529,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Noa Levi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/20.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769053625331,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.2,
+      "by": {
+        "fullname": "Guy Shani",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/7.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767865952764,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/49.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Perfectly positioned to enjoy the stunning Red Sea views and desert landscapes. Ideal for a relaxing sanctuary.",
@@ -971,7 +1754,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.2,
+  "reviewStats": {
+    "cleanliness": 4.3,
+    "accuracy": 4.1,
+    "communication": 4.3,
+    "location": 4.3,
+    "checkIn": 4.2,
+    "value": 4
+  }
 },
 {
   "_id": {
@@ -1014,9 +1806,10 @@
     "lng": -74.0088
   },
   "host": {
-    "_id": "u102",
-    "fullname": "Michal Ohayon",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/2.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.3,
   "reviews": [
@@ -1030,6 +1823,76 @@
         "fullname": "Robert D.",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/31.jpg"
       }
+    },
+    {
+      "at": 1769649721996,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.5,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/5.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769376658065,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.5,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/35.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768258567043,
+      "txt": "Great value for money, highly recommend!",
+      "rate": 4.5,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768380719106,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.9,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/8.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769737540259,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Guy Shani",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767655472343,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/42.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768239504244,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/24.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Live like a true New Yorker in this stylish space at the heart of the city that never sleeps. Just steps away from subway lines, iconic parks, and endless dining options.",
@@ -1038,7 +1901,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.6,
+  "reviewStats": {
+    "cleanliness": 4.4,
+    "accuracy": 4.2,
+    "communication": 4.5,
+    "location": 5,
+    "checkIn": 4.8,
+    "value": 4.7
+  }
 },
 {
   "_id": {
@@ -1081,9 +1953,10 @@
     "lng": 2.367
   },
   "host": {
-    "_id": "u103",
-    "fullname": "Jonathan Levi",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.6,
   "reviews": [
@@ -1097,6 +1970,86 @@
         "fullname": "Julie B.",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/32.jpg"
       }
+    },
+    {
+      "at": 1770078093293,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Guy Shani",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/0.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769993528690,
+      "txt": "Great value for money, highly recommend!",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Noa Levi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/19.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768466147661,
+      "txt": "Super clean and well-designed. We loved every minute.",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/37.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768692369536,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Liat Peretz",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/26.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767919077787,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/30.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768906188447,
+      "txt": "Super clean and well-designed. We loved every minute.",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/14.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767942792815,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/26.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767776365455,
+      "txt": "Great value for money, highly recommend!",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Liat Peretz",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/14.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Indulge in the romance of Paris from this elegant and light-filled residence. Nestled in a historic district filled with cozy bakeries and art galleries, capturing the authentic Parisian spirit.",
@@ -1105,7 +2058,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.67,
+  "reviewStats": {
+    "cleanliness": 5,
+    "accuracy": 4.6,
+    "communication": 4.8,
+    "location": 4.6,
+    "checkIn": 4.2,
+    "value": 4.8
+  }
 },
 {
   "_id": {
@@ -1148,9 +2110,10 @@
     "lng": 139.7711
   },
   "host": {
-    "_id": "u104",
-    "fullname": "Sarah Cohen",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/4.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.8,
   "reviews": [
@@ -1164,6 +2127,96 @@
         "fullname": "Hiro M.",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/33.jpg"
       }
+    },
+    {
+      "at": 1769679888534,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Noa Levi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/48.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768765028915,
+      "txt": "Super clean and well-designed. We loved every minute.",
+      "rate": 4.9,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/36.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768779631465,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/28.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769516443409,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/31.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767622600162,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.6,
+      "by": {
+        "fullname": "Liat Peretz",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/16.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769893225262,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Liat Peretz",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/31.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1770109467889,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.2,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/13.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768624020982,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.1,
+      "by": {
+        "fullname": "Noa Levi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/31.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768825494071,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/49.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Discover the perfect blend of tradition and high-tech living in this modern Tokyo home. Located in a dynamic district with neon lights and hidden shrines, designed for maximum comfort.",
@@ -1172,7 +2225,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.48,
+  "reviewStats": {
+    "cleanliness": 4.1,
+    "accuracy": 4.7,
+    "communication": 4.6,
+    "location": 4.2,
+    "checkIn": 4.4,
+    "value": 4.9
+  }
 },
 {
   "_id": {
@@ -1215,9 +2277,10 @@
     "lng": 12.4769
   },
   "host": {
-    "_id": "u101",
-    "fullname": "Dudi Ganz",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.9,
   "reviews": [
@@ -1231,6 +2294,76 @@
         "fullname": "Giovanni",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/42.jpg"
       }
+    },
+    {
+      "at": 1767619702925,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/40.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767630086409,
+      "txt": "Super clean and well-designed. We loved every minute.",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Noa Levi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/20.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768059002570,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.1,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/29.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768982779554,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.1,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/3.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769985722198,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/23.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767714473831,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/35.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769532554515,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.1,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/37.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Immerse yourself in history in this charming Roman dwelling. Surrounded by ancient monuments and lively piazzas, the home offers a warm atmosphere and local trattorias at your doorstep.",
@@ -1239,7 +2372,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.65,
+  "reviewStats": {
+    "cleanliness": 4.6,
+    "accuracy": 4.7,
+    "communication": 4.5,
+    "location": 5,
+    "checkIn": 4.4,
+    "value": 4.7
+  }
 },
 {
   "_id": {
@@ -1283,9 +2425,10 @@
     "lng": -0.1906
   },
   "host": {
-    "_id": "u102",
-    "fullname": "Michal Ohayon",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/2.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.9,
   "reviews": [
@@ -1299,6 +2442,76 @@
         "fullname": "Victoria",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/15.jpg"
       }
+    },
+    {
+      "at": 1767924006618,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/49.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769517377038,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.5,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/31.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767674880597,
+      "txt": "Super clean and well-designed. We loved every minute.",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/45.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769115082428,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.2,
+      "by": {
+        "fullname": "Noa Levi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/33.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769176821497,
+      "txt": "Great value for money, highly recommend!",
+      "rate": 4.9,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/6.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768292947397,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/22.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769417788729,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 5,
+      "by": {
+        "fullname": "Guy Shani",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/33.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Experience the quintessential London lifestyle in this beautifully appointed home. Located in a vibrant neighborhood with easy access to iconic landmarks, local pubs, and world-class theaters.",
@@ -1307,7 +2520,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.35,
+  "reviewStats": {
+    "cleanliness": 4.3,
+    "accuracy": 4.3,
+    "communication": 5,
+    "location": 4,
+    "checkIn": 4.3,
+    "value": 4.2
+  }
 },
 {
   "_id": {
@@ -1350,9 +2572,10 @@
     "lng": 34.948
   },
   "host": {
-    "_id": "u103",
-    "fullname": "Jonathan Levi",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.2,
   "reviews": [
@@ -1366,6 +2589,36 @@
         "fullname": "Dana",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/50.jpg"
       }
+    },
+    {
+      "at": 1768345441148,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.6,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/14.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768207149245,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.5,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/38.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767984139456,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/41.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Perfectly positioned to enjoy the stunning Red Sea views and desert landscapes. Ideal for a relaxing sanctuary.",
@@ -1374,7 +2627,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.23,
+  "reviewStats": {
+    "cleanliness": 4.3,
+    "accuracy": 4.1,
+    "communication": 4,
+    "location": 4.6,
+    "checkIn": 4.1,
+    "value": 4.3
+  }
 },
 {
   "_id": {
@@ -1417,9 +2679,10 @@
     "lng": -73.9977
   },
   "host": {
-    "_id": "u104",
-    "fullname": "Sarah Cohen",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/4.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.6,
   "reviews": [
@@ -1433,6 +2696,66 @@
         "fullname": "Sarah",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/48.jpg"
       }
+    },
+    {
+      "at": 1768949984095,
+      "txt": "Super clean and well-designed. We loved every minute.",
+      "rate": 4,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/44.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769451365941,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/14.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768588399403,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/4.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769975524724,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/13.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769830393075,
+      "txt": "Great value for money, highly recommend!",
+      "rate": 4.1,
+      "by": {
+        "fullname": "Guy Shani",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/6.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768428335617,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.6,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/41.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Live like a true New Yorker in this stylish space at the heart of the city that never sleeps. Just steps away from subway lines, iconic parks, and endless dining options.",
@@ -1441,7 +2764,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.63,
+  "reviewStats": {
+    "cleanliness": 5,
+    "accuracy": 4,
+    "communication": 4.6,
+    "location": 4.9,
+    "checkIn": 4.3,
+    "value": 5
+  }
 },
 {
   "_id": {
@@ -1483,9 +2815,10 @@
     "lng": 2.3328
   },
   "host": {
-    "_id": "u101",
-    "fullname": "Dudi Ganz",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.8,
   "reviews": [
@@ -1499,6 +2832,66 @@
         "fullname": "Amélie",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/44.jpg"
       }
+    },
+    {
+      "at": 1768762486450,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Liat Peretz",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/14.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1770145604297,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/0.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769131676829,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.2,
+      "by": {
+        "fullname": "Guy Shani",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/27.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767806432172,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Guy Shani",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/29.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769491790855,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Liat Peretz",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/0.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768351928237,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4,
+      "by": {
+        "fullname": "Liat Peretz",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/49.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Indulge in the romance of Paris from this elegant and light-filled residence. Nestled in a historic district filled with cozy bakeries and art galleries, capturing the authentic Parisian spirit.",
@@ -1507,7 +2900,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.63,
+  "reviewStats": {
+    "cleanliness": 4.6,
+    "accuracy": 4.6,
+    "communication": 4.5,
+    "location": 4.9,
+    "checkIn": 4.8,
+    "value": 4.4
+  }
 },
 {
   "_id": {
@@ -1550,9 +2952,10 @@
     "lng": 139.7291
   },
   "host": {
-    "_id": "u102",
-    "fullname": "Michal Ohayon",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/2.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.7,
   "reviews": [
@@ -1566,6 +2969,106 @@
         "fullname": "Mimi",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/46.jpg"
       }
+    },
+    {
+      "at": 1768505292659,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Noa Levi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/13.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769736738678,
+      "txt": "Great value for money, highly recommend!",
+      "rate": 4.2,
+      "by": {
+        "fullname": "Guy Shani",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/18.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769514757528,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.6,
+      "by": {
+        "fullname": "Noa Levi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/41.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1770179927707,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.5,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/2.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768268089662,
+      "txt": "Super clean and well-designed. We loved every minute.",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/35.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768921660985,
+      "txt": "Great value for money, highly recommend!",
+      "rate": 4.5,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/30.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768702439426,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.2,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/48.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768421782231,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/31.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769013595882,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.1,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/21.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768126548765,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/32.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Discover the perfect blend of tradition and high-tech living in this modern Tokyo home. Located in a dynamic district with neon lights and hidden shrines, designed for maximum comfort.",
@@ -1574,7 +3077,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.48,
+  "reviewStats": {
+    "cleanliness": 4.8,
+    "accuracy": 4.5,
+    "communication": 4.1,
+    "location": 4.3,
+    "checkIn": 4.3,
+    "value": 4.9
+  }
 },
 {
   "_id": {
@@ -1617,9 +3129,10 @@
     "lng": 12.4573
   },
   "host": {
-    "_id": "u103",
-    "fullname": "Jonathan Levi",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.5,
   "reviews": [
@@ -1633,6 +3146,46 @@
         "fullname": "Fabio",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/47.jpg"
       }
+    },
+    {
+      "at": 1769987363166,
+      "txt": "Super clean and well-designed. We loved every minute.",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/13.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768884312073,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.6,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/16.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767982259913,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/26.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768905037764,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.5,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/0.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Immerse yourself in history in this charming Roman dwelling. Surrounded by ancient monuments and lively piazzas, the home offers a warm atmosphere and local trattorias at your doorstep.",
@@ -1641,7 +3194,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.48,
+  "reviewStats": {
+    "cleanliness": 4.3,
+    "accuracy": 4.5,
+    "communication": 4.5,
+    "location": 4,
+    "checkIn": 4.9,
+    "value": 4.7
+  }
 },
 {
   "_id": {
@@ -1684,9 +3246,10 @@
     "lng": -0.071
   },
   "host": {
-    "_id": "u104",
-    "fullname": "Sarah Cohen",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/4.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.6,
   "reviews": [
@@ -1700,6 +3263,66 @@
         "fullname": "Liam",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/18.jpg"
       }
+    },
+    {
+      "at": 1768742040177,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/44.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768582911785,
+      "txt": "Great value for money, highly recommend!",
+      "rate": 4.9,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/0.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767947115477,
+      "txt": "Great value for money, highly recommend!",
+      "rate": 5,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/14.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769904605210,
+      "txt": "Super clean and well-designed. We loved every minute.",
+      "rate": 4,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/26.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769104779776,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.1,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/47.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767633118952,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Guy Shani",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/44.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Experience the quintessential London lifestyle in this beautifully appointed home. Located in a vibrant neighborhood with easy access to iconic landmarks, local pubs, and world-class theaters.",
@@ -1708,7 +3331,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.37,
+  "reviewStats": {
+    "cleanliness": 4.6,
+    "accuracy": 4.1,
+    "communication": 4.2,
+    "location": 4.3,
+    "checkIn": 4.1,
+    "value": 4.9
+  }
 },
 {
   "_id": {
@@ -1753,9 +3385,10 @@
     "lng": 34.951
   },
   "host": {
-    "_id": "u101",
-    "fullname": "Dudi Ganz",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.9,
   "reviews": [
@@ -1769,6 +3402,66 @@
         "fullname": "Yossi",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/45.jpg"
       }
+    },
+    {
+      "at": 1768351996990,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.5,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/26.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768134411433,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.1,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/1.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768967514374,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/47.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769570155205,
+      "txt": "Great value for money, highly recommend!",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/26.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768400408567,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4,
+      "by": {
+        "fullname": "Noa Levi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/38.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769730420170,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Guy Shani",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/12.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Perfectly positioned to enjoy the stunning Red Sea views and desert landscapes. Ideal for a relaxing sanctuary.",
@@ -1777,7 +3470,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.5,
+  "reviewStats": {
+    "cleanliness": 4.8,
+    "accuracy": 4.4,
+    "communication": 4.3,
+    "location": 4.9,
+    "checkIn": 4.3,
+    "value": 4.3
+  }
 },
 {
   "_id": {
@@ -1820,9 +3522,10 @@
     "lng": -73.9591
   },
   "host": {
-    "_id": "u102",
-    "fullname": "Michal Ohayon",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/2.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.7,
   "reviews": [
@@ -1836,6 +3539,56 @@
         "fullname": "Linda",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/12.jpg"
       }
+    },
+    {
+      "at": 1768001193596,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.6,
+      "by": {
+        "fullname": "Noa Levi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/37.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768330697586,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/12.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769661606174,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/25.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769522275384,
+      "txt": "Super clean and well-designed. We loved every minute.",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Guy Shani",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/30.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769842409151,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/38.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Live like a true New Yorker in this stylish space at the heart of the city that never sleeps. Just steps away from subway lines, iconic parks, and endless dining options.",
@@ -1844,7 +3597,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.38,
+  "reviewStats": {
+    "cleanliness": 4.3,
+    "accuracy": 4,
+    "communication": 4.6,
+    "location": 4.5,
+    "checkIn": 4.5,
+    "value": 4.4
+  }
 },
 {
   "_id": {
@@ -1888,9 +3650,10 @@
     "lng": 2.336
   },
   "host": {
-    "_id": "u103",
-    "fullname": "Jonathan Levi",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.8,
   "reviews": [
@@ -1904,6 +3667,106 @@
         "fullname": "Chloe",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/24.jpg"
       }
+    },
+    {
+      "at": 1768550706087,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Noa Levi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/19.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769842838360,
+      "txt": "Great value for money, highly recommend!",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Liat Peretz",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/7.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769076134523,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.6,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/17.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769093951213,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Guy Shani",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/20.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769439618806,
+      "txt": "Super clean and well-designed. We loved every minute.",
+      "rate": 4.1,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/1.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768049062267,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/21.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768818136774,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/11.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769599215427,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.6,
+      "by": {
+        "fullname": "Guy Shani",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/49.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768349083281,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/40.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767614512481,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/13.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Indulge in the romance of Paris from this elegant and light-filled residence. Nestled in a historic district filled with cozy bakeries and art galleries, capturing the authentic Parisian spirit.",
@@ -1912,7 +3775,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.7,
+  "reviewStats": {
+    "cleanliness": 4.4,
+    "accuracy": 4.6,
+    "communication": 4.8,
+    "location": 4.5,
+    "checkIn": 4.9,
+    "value": 5
+  }
 },
 {
   "_id": {
@@ -1957,9 +3829,10 @@
     "lng": 139.7666
   },
   "host": {
-    "_id": "u104",
-    "fullname": "Sarah Cohen",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/4.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.9,
   "reviews": [
@@ -1973,6 +3846,46 @@
         "fullname": "Hiroshi",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/38.jpg"
       }
+    },
+    {
+      "at": 1768900966156,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Guy Shani",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/2.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768120637133,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Noa Levi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/3.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768844953267,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/12.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769288523334,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.6,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/4.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Discover the perfect blend of tradition and high-tech living in this modern Tokyo home. Located in a dynamic district with neon lights and hidden shrines, designed for maximum comfort.",
@@ -1981,7 +3894,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.52,
+  "reviewStats": {
+    "cleanliness": 4.8,
+    "accuracy": 4.4,
+    "communication": 4.6,
+    "location": 4,
+    "checkIn": 4.7,
+    "value": 4.6
+  }
 },
 {
   "_id": {
@@ -2024,9 +3946,10 @@
     "lng": 12.4731
   },
   "host": {
-    "_id": "u101",
-    "fullname": "Dudi Ganz",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.6,
   "reviews": [
@@ -2040,6 +3963,86 @@
         "fullname": "Alessia",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/29.jpg"
       }
+    },
+    {
+      "at": 1769755538014,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.9,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/49.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768025317186,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/4.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768937449798,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.5,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/29.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769574121413,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Liat Peretz",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/13.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769321010456,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.2,
+      "by": {
+        "fullname": "Guy Shani",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/45.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768945346851,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.1,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/18.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768521144312,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/35.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1770102867209,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Liat Peretz",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/42.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Immerse yourself in history in this charming Roman dwelling. Surrounded by ancient monuments and lively piazzas, the home offers a warm atmosphere and local trattorias at your doorstep.",
@@ -2048,7 +4051,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.5,
+  "reviewStats": {
+    "cleanliness": 4.5,
+    "accuracy": 4,
+    "communication": 4.7,
+    "location": 4.8,
+    "checkIn": 4.6,
+    "value": 4.4
+  }
 },
 {
   "_id": {
@@ -2093,9 +4105,10 @@
     "lng": -0.203
   },
   "host": {
-    "_id": "u103",
-    "fullname": "Jonathan Levi",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.8,
   "reviews": [
@@ -2109,6 +4122,86 @@
         "fullname": "Charlotte",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/22.jpg"
       }
+    },
+    {
+      "at": 1768282625497,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/6.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768762256087,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.2,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/29.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769424944131,
+      "txt": "Super clean and well-designed. We loved every minute.",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/37.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769179682872,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.1,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/24.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769491839294,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.1,
+      "by": {
+        "fullname": "Guy Shani",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/30.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768847436965,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/48.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768260054608,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.2,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/43.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769560133365,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.5,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/9.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Experience the quintessential London lifestyle in this beautifully appointed home. Located in a vibrant neighborhood with easy access to iconic landmarks, local pubs, and world-class theaters.",
@@ -2117,7 +4210,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.45,
+  "reviewStats": {
+    "cleanliness": 4.8,
+    "accuracy": 4.8,
+    "communication": 4.1,
+    "location": 4.1,
+    "checkIn": 4,
+    "value": 4.9
+  }
 },
 {
   "_id": {
@@ -2161,9 +4263,10 @@
     "lng": -74.003
   },
   "host": {
-    "_id": "u102",
-    "fullname": "Michal Ohayon",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/2.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.8,
   "reviews": [
@@ -2177,6 +4280,66 @@
         "fullname": "James",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/5.jpg"
       }
+    },
+    {
+      "at": 1767945959225,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.9,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/32.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768950540536,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/20.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769668196970,
+      "txt": "Super clean and well-designed. We loved every minute.",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/47.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768500547497,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 5,
+      "by": {
+        "fullname": "Liat Peretz",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/10.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768372605736,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/47.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769342132435,
+      "txt": "Super clean and well-designed. We loved every minute.",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/41.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Live like a true New Yorker in this stylish space at the heart of the city that never sleeps. Just steps away from subway lines, iconic parks, and endless dining options.",
@@ -2185,7 +4348,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.62,
+  "reviewStats": {
+    "cleanliness": 4.7,
+    "accuracy": 4.1,
+    "communication": 4.4,
+    "location": 4.7,
+    "checkIn": 5,
+    "value": 4.8
+  }
 },
 {
   "_id": {
@@ -2228,9 +4400,10 @@
     "lng": 2.3486
   },
   "host": {
-    "_id": "u103",
-    "fullname": "Jonathan Levi",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.7,
   "reviews": [
@@ -2244,6 +4417,66 @@
         "fullname": "Luc",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/7.jpg"
       }
+    },
+    {
+      "at": 1768031952399,
+      "txt": "Super clean and well-designed. We loved every minute.",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/28.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1770128526422,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/49.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768583539819,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.6,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/16.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768886214518,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.6,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/16.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768656029693,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/27.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767674471530,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/34.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Indulge in the romance of Paris from this elegant and light-filled residence. Nestled in a historic district filled with cozy bakeries and art galleries, capturing the authentic Parisian spirit.",
@@ -2252,7 +4485,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.45,
+  "reviewStats": {
+    "cleanliness": 4.5,
+    "accuracy": 4.1,
+    "communication": 4.4,
+    "location": 4.9,
+    "checkIn": 4.1,
+    "value": 4.7
+  }
 },
 {
   "_id": {
@@ -2296,9 +4538,10 @@
     "lng": 139.703
   },
   "host": {
-    "_id": "u104",
-    "fullname": "Sarah Cohen",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/4.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.5,
   "reviews": [
@@ -2312,6 +4555,66 @@
         "fullname": "Yuki",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/8.jpg"
       }
+    },
+    {
+      "at": 1769747480332,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/17.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767834369016,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.6,
+      "by": {
+        "fullname": "Noa Levi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/8.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767767038052,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/45.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1767746470839,
+      "txt": "Super clean and well-designed. We loved every minute.",
+      "rate": 5,
+      "by": {
+        "fullname": "Liat Peretz",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/32.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768032330449,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/25.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769100485094,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.5,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/49.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Discover the perfect blend of tradition and high-tech living in this modern Tokyo home. Located in a dynamic district with neon lights and hidden shrines, designed for maximum comfort.",
@@ -2320,7 +4623,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.55,
+  "reviewStats": {
+    "cleanliness": 4.5,
+    "accuracy": 4.6,
+    "communication": 4.8,
+    "location": 4.3,
+    "checkIn": 4.4,
+    "value": 4.7
+  }
 },
 {
   "_id": {
@@ -2364,9 +4676,10 @@
     "lng": 12.4922
   },
   "host": {
-    "_id": "u101",
-    "fullname": "Dudi Ganz",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.9,
   "reviews": [
@@ -2380,6 +4693,56 @@
         "fullname": "Enzo",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/9.jpg"
       }
+    },
+    {
+      "at": 1770192472964,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.1,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/35.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769428291087,
+      "txt": "Super clean and well-designed. We loved every minute.",
+      "rate": 4.6,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/40.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768144709306,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.5,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/35.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769586018859,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.9,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/49.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769472930424,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.8,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/23.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Immerse yourself in history in this charming Roman dwelling. Surrounded by ancient monuments and lively piazzas, the home offers a warm atmosphere and local trattorias at your doorstep.",
@@ -2388,7 +4751,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.53,
+  "reviewStats": {
+    "cleanliness": 4.5,
+    "accuracy": 4.8,
+    "communication": 4.2,
+    "location": 4.6,
+    "checkIn": 4.7,
+    "value": 4.4
+  }
 },
 {
   "_id": {
@@ -2434,9 +4806,10 @@
     "lng": 34.945
   },
   "host": {
-    "_id": "u101",
-    "fullname": "Dudi Ganz",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.8,
   "reviews": [
@@ -2450,6 +4823,86 @@
         "fullname": "Noam",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg"
       }
+    },
+    {
+      "at": 1767673798891,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.1,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/12.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1770053347464,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Daniel Gold",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/6.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768522804237,
+      "txt": "Super clean and well-designed. We loved every minute.",
+      "rate": 4.9,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/11.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768103000899,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.5,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/26.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769452025026,
+      "txt": "Modern, quiet, and very comfortable beds.",
+      "rate": 4.9,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/40.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1770153523138,
+      "txt": "Perfect for a family vacation, kids loved the backyard.",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Itay Cohen",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/38.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769247964491,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Guy Shani",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/31.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768216469662,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.5,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Perfectly positioned to enjoy the stunning Red Sea views and desert landscapes. Ideal for a relaxing sanctuary.",
@@ -2458,7 +4911,16 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.78,
+  "reviewStats": {
+    "cleanliness": 4.9,
+    "accuracy": 4.9,
+    "communication": 4.7,
+    "location": 4.3,
+    "checkIn": 4.9,
+    "value": 5
+  }
 },
 {
   "_id": {
@@ -2503,9 +4965,10 @@
     "lng": -0.131
   },
   "host": {
-    "_id": "u102",
-    "fullname": "Michal Ohayon",
-    "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/2.jpg"
+    "_id": {
+      "$oid": "697b6609891da9cf5fe96f90"
+    },
+    "fullname": "Shany Baruch"
   },
   "rate": 4.7,
   "reviews": [
@@ -2519,6 +4982,86 @@
         "fullname": "Sarah J.",
         "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/55.jpg"
       }
+    },
+    {
+      "at": 1769665842260,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.9,
+      "by": {
+        "fullname": "Liat Peretz",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/12.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768890490619,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.4,
+      "by": {
+        "fullname": "Liat Peretz",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/12.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768465511586,
+      "txt": "The location is unbeatable, very close to everything.",
+      "rate": 4.3,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/9.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768048063197,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.5,
+      "by": {
+        "fullname": "Guy Shani",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/13.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769160174087,
+      "txt": "Amazing view and the pool was perfect!",
+      "rate": 4.7,
+      "by": {
+        "fullname": "Yossi Mizrahi",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768538675607,
+      "txt": "Host was very helpful and responsive. 5 stars!",
+      "rate": 4.6,
+      "by": {
+        "fullname": "Maya Dar",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/14.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1769226655805,
+      "txt": "A true gem in the heart of the city.",
+      "rate": 4.9,
+      "by": {
+        "fullname": "Guy Shani",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/37.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
+    },
+    {
+      "at": 1768638503279,
+      "txt": "Super clean and well-designed. We loved every minute.",
+      "rate": 4.2,
+      "by": {
+        "fullname": "Tamar Ohayon",
+        "imgUrl": "https://xsgames.co/randomusers/assets/avatars/female/26.jpg"
+      },
+      "description": "Escape to this sun-soaked retreat in Israel's premier resort city. Per…"
     }
   ],
   "description": "Experience the quintessential London lifestyle in this beautifully appointed home. Located in a vibrant neighborhood with easy access to iconic landmarks, local pubs, and world-class theaters.",
@@ -2527,5 +5070,14 @@
       "from": 1704067200000,
       "to": 1830297600000
     }
-  ]
+  ],
+  "rating": 4.37,
+  "reviewStats": {
+    "cleanliness": 4.3,
+    "accuracy": 4.4,
+    "communication": 4.1,
+    "location": 4,
+    "checkIn": 4.5,
+    "value": 4.9
+  }
 }]
