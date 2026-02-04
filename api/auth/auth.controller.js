@@ -43,7 +43,7 @@ export async function login(req, res) {
 
 		logger.info('User login: ', user)
 
-		res.cookie('loginToken', loginToken, { sameSite: 'None', secure: true })
+		res.cookie('loginToken', loginToken, { sameSite: 'None', secure: true, httpOnly: true })
 		res.json(user)
 	} catch (err) {
 		logger.error('Failed to Login ' + err)
@@ -58,7 +58,7 @@ export async function signup(req, res) {
 		
 		logger.debug(`auth.route - new account created: ${account._id}`)
 		const loginToken = authService.getLoginToken(account)
-		res.cookie('loginToken', loginToken, { sameSite: 'None', secure: true })
+		res.cookie('loginToken', loginToken, { sameSite: 'None', secure: true, httpOnly: true })
 		res.json(account)
 	} catch (err) {
 		logger.error('Failed to signup ' + err)

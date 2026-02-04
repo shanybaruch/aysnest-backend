@@ -52,6 +52,7 @@ export async function addStay(req, res) {
 }
 
 export async function updateStay(req, res) {
+	if (!req.loggedinUser) return res.status(401).send('Login required')
 	const { loggedinUser, body: stay } = req
 	const { _id: userId, isAdmin } = loggedinUser
 
