@@ -1,0 +1,116 @@
+[{
+  "_id": {
+    "$oid": "697b6609891da9cf5fe96f90"
+  },
+  "email": "baruchshany@gmail.com",
+  "phone": "0556625797",
+  "password": "$2b$10$u8ni8xMPw6skslP8AYcW2uHCJjZGpmcLNe4RdyT9ljnYC/RcIaTfm",
+  "firstName": "Shany",
+  "lastName": "Baruch",
+  "fullname": "Shany Baruch",
+  "birthDate": "2002-05-30",
+  "imgUrl": "https://res.cloudinary.com/drwckesw5/image/upload/v1769947370/u6kvommb4v7xzgej6pb3.jpg",
+  "isAdmin": false,
+  "score": 100,
+  "saved": [
+    "6975f4470212b2753b2cffe5",
+    "6975f4470212b2753b2cffeb"
+  ],
+  "trips": [
+    {
+      "hostId": "697b6609891da9cf5fe96f90",
+      "buyer": {
+        "_id": "697b6609891da9cf5fe96f90",
+        "fullname": "Shany Baruch",
+        "imgUrl": "https://res.cloudinary.com/drwckesw5/image/upload/v1769947370/u6kvommb4v7xzgej6pb3.jpg"
+      },
+      "totalPrice": 1220,
+      "startDate": "2026-01-31T22:00:00.000Z",
+      "endDate": "2026-02-02T22:00:00.000Z",
+      "guests": {
+        "adults": 1,
+        "children": 0,
+        "infants": 0,
+        "pets": 0
+      },
+      "stay": {
+        "_id": "6975f4470212b2753b2cfff6",
+        "name": "NYC Upper East Side Classic",
+        "price": 610,
+        "imgUrls": [
+          "https://images.unsplash.com/photo-1604348825621-22800b6ed16d?q=80&w=687&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1586611292717-f828b167408c?q=80&w=1374&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1563493653502-9e270be23596?q=80&w=1740&auto=format&fit=crop",
+          "https://plus.unsplash.com/premium_photo-1675745329634-4dc1f4247e48?q=80&w=687&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1740&auto=format&fit=crop"
+        ]
+      },
+      "status": "approved",
+      "paymentDetails": {
+        "cardNum": "5804 3443 9082 1194"
+      },
+      "createdAt": 1769947629024,
+      "_id": "697f41ed97ef7345d1d9af2b"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6980b36697ef7345d1d9af2d"
+  },
+  "email": "yonat@gmail.com",
+  "phone": "1111",
+  "password": "$2b$10$Oh4MS1ROHj2UBQAmiPpvm.bvUSBEHrljQ7c1CDT8k3nyLtlrLIZ9q",
+  "firstName": "Yonat",
+  "lastName": "Miller",
+  "fullname": "Yonat Miller",
+  "birthDate": "1999-02-11",
+  "imgUrl": "",
+  "isAdmin": false,
+  "score": 100,
+  "saved": [
+    "6975f4470212b2753b2cffef",
+    "6975f4470212b2753b2cfff6",
+    "6975f4470212b2753b2cffe6",
+    "6975f4470212b2753b2cffed",
+    "6975f4470212b2753b2cfff4",
+    "6975f4470212b2753b2cffe2"
+  ],
+  "trips": [
+    {
+      "hostId": "697b6609891da9cf5fe96f90",
+      "buyer": {
+        "_id": "6980b36697ef7345d1d9af2d",
+        "fullname": "Yonat Miller",
+        "imgUrl": ""
+      },
+      "totalPrice": 995,
+      "startDate": "2026-02-03",
+      "endDate": "2026-02-03",
+      "guests": {
+        "adults": 7,
+        "children": 0,
+        "infants": 0,
+        "pets": 0
+      },
+      "stay": {
+        "_id": "6975f4470212b2753b2cfff5",
+        "name": "Eilat Coral Reef Villa",
+        "price": 995,
+        "imgUrls": [
+          "https://images.unsplash.com/photo-1689668158402-35beeaf9167d?q=80&w=870&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1604348825621-22800b6ed16d?q=80&w=687&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1586611292717-f828b167408c?q=80&w=1374&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1563493653502-9e270be23596?q=80&w=1740&auto=format&fit=crop",
+          "https://plus.unsplash.com/premium_photo-1675745329634-4dc1f4247e48?q=80&w=687&auto=format&fit=crop"
+        ]
+      },
+      "status": "approved",
+      "paymentDetails": {
+        "cardNum": "5804 3443 9082 1194"
+      },
+      "createdAt": 1770206784833,
+      "_id": "698336407dde8ed58647eb11"
+    }
+  ]
+}]
