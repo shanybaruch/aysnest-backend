@@ -164,13 +164,13 @@
     },
     "name": "Paris Eiffel Tower View Apartment",
     "type": "Apartment",
-    "imgUrl": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1740&auto=format&fit=crop",
+    "imgUrl": "https://images.unsplash.com/photo-1647764305263-c4811107f834?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imgUrls": [
-      "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1740&auto=format&fit=crop",
-      "https://plus.unsplash.com/premium_photo-1675745329954-9639d3b74bbf?q=80&w=687&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=928&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1740&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1740&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1647764305263-c4811107f834?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1647764493566-81a0565dd2b9?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1684091644855-15f83f7fb4ad?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1647764305263-c4811107f834?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1736183587761-d5e43490fa5a?q=80&w=1817&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "price": 948,
     "capacity": 2,
@@ -725,7 +725,7 @@
       "$oid": "6975f4470212b2753b2d0005"
     },
     "name": "Corfu Old Town Mansion",
-    "type": "House",
+    "type": "Apartment",
     "imgUrl": "https://images.unsplash.com/photo-1601581875309-fafbf2d3ed3a?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imgUrls": [
       "https://images.unsplash.com/photo-1601581875309-fafbf2d3ed3a?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -768,7 +768,7 @@
       "$oid": "6975f4470212b2753b2d0006"
     },
     "name": "Naxos Beachfront Bungalow",
-    "type": "House",
+    "type": "Apartment",
     "imgUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=1740&auto=format&fit=crop",
     "imgUrls": [
       "https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=1740&auto=format&fit=crop",
@@ -1509,7 +1509,7 @@
       "$oid": "6975f4470212b2753b2cfff1"
     },
     "name": "Paris Montmartre Secret Garden",
-    "type": "House",
+    "type": "Apartment",
     "imgUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=1640&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imgUrls": [
       "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=1640&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -1858,8 +1858,8 @@
     "_id": {
       "$oid": "6975f4470212b2753b2cfffa"
     },
-    "name": "London Notting Hill Colorful House",
-    "type": "House",
+    "name": "London Notting Hill Colorful Apartment",
+    "type": "Apartment",
     "imgUrl": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1740&auto=format&fit=crop",
     "price": 670,
     "capacity": 5,
@@ -2033,7 +2033,7 @@
     "_id": {
       "$oid": "6975f4470212b2753b2cfffe"
     },
-    "name": "Rome Colosseum View Penthouse",
+    "name": "Rome Colosseum View PentApartment",
     "type": "Apartment",
     "imgUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?q=80&w=1996&auto=format&fit=crop",
     "price": 880,
@@ -2070,7 +2070,7 @@
     },
     "rate": 4.9,
     "rating": 4.53,
-    "description": "Immerse yourself in history in this luxury penthouse with an unforgettable view of the Colosseum."
+    "description": "Immerse yourself in history in this luxury pentApartment with an unforgettable view of the Colosseum."
   },
   {
     "_id": {
@@ -2115,8 +2115,8 @@
     "_id": {
       "$oid": "6975f4470212b2753b2d0002"
     },
-    "name": "Paros White Stone House",
-    "type": "House",
+    "name": "Paros White Stone Apartment",
+    "type": "Apartment",
     "imgUrl": "https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=928&auto=format&fit=crop",
     "price": 420,
     "capacity": 4,
