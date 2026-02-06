@@ -402,9 +402,9 @@
     "imgUrls": [
       "https://images.unsplash.com/photo-1455587734955-081b22074882?q=80&w=1740&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1325&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "https://plus.unsplash.com/premium_photo-1700140420241-9e21b75cb0ce?q=80&w=2532&auto=format&fit=crop",
-      "https://plus.unsplash.com/premium_photo-1676968002767-1f6a09891350?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "https://plus.unsplash.com/premium_photo-1676968002767-1f6a09891350?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "price": 280,
     "capacity": 2,
@@ -479,8 +479,8 @@
     "imgUrls": [
       "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1740&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=1742&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?q=80&w=1740&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?q=80&w=1740&auto=format&fit=crop",
       "https://plus.unsplash.com/premium_photo-1676968002767-1f6a09891350?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "price": 1100,
@@ -555,9 +555,13 @@
     },
     "name": "Athens Acropolis View Loft",
     "type": "Loft",
-    "imgUrl": [
-      "https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1503152397458-9962b774fb3a?auto=format&fit=crop&w=1200&q=80"
+    "imgUrl": "https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imgUrls": [
+      "https://images.unsplash.com/photo-1698343845948-22eb9216081b?q=80&w=772&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1498503403619-e39e4ff390fe?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1694434080263-c5611e3d6574?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1697729900945-598459160f7b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Z3JlZWNlJTIwaG90ZWx8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1687866722251-92593a9e331d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "price": 450,
     "capacity": 3,
@@ -595,6 +599,13 @@
     "name": "Santorini Blue Dome Suite",
     "type": "Suite",
     "imgUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?q=80&w=1740&auto=format&fit=crop",
+    "imgUrls": [
+      "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?q=80&w=1740&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1688378707060-37f0a702cb04?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1743043322412-bfd95f750eb2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D",
+      "https://images.unsplash.com/photo-1583608628796-b788693ed381?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D",
+      "https://images.unsplash.com/photo-1649053679570-4e0f268002af?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D"
+    ],
     "price": 950,
     "capacity": 2,
     "bedrooms": 1,
@@ -631,6 +642,13 @@
     "name": "Mykonos Little Venice Apartment",
     "type": "Apartment",
     "imgUrl": "https://images.unsplash.com/photo-1601581875039-e899893d520c?q=80&w=1740&auto=format&fit=crop",
+    "imgUrls": [
+      "https://images.unsplash.com/photo-1601581875039-e899893d520c?q=80&w=1740&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1537988629847-87c59e296485?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDI4fHx8ZW58MHx8fHx8",
+      "https://images.unsplash.com/photo-1664112529187-451975fe2510?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDI3fHx8ZW58MHx8fHx8",
+      "https://images.unsplash.com/photo-1668585419087-55097ab1d520?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D",
+      "https://images.unsplash.com/photo-1552768274-59c640872a75?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D"
+    ],
     "price": 620,
     "capacity": 4,
     "bedrooms": 2,
@@ -666,6 +684,13 @@
     "name": "Thessaloniki White Tower Flat",
     "type": "Apartment",
     "imgUrl": "https://images.unsplash.com/photo-1541343672885-9be56236302a?q=80&w=1740&auto=format&fit=crop",
+    "imgUrls": [
+      "https://images.unsplash.com/photo-1541343672885-9be56236302a?q=80&w=1740&auto=format&fit=crop",
+      "https://plus.unsplash.com/premium_photo-1687862745564-595b06daf5a3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDI0fHx8ZW58MHx8fHx8",
+      "https://images.unsplash.com/photo-1688378707060-37f0a702cb04?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1743043322412-bfd95f750eb2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D",
+      "https://images.unsplash.com/photo-1583608628796-b788693ed381?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D"
+    ],
     "price": 310,
     "capacity": 4,
     "bedrooms": 2,
@@ -745,6 +770,13 @@
     "name": "Naxos Beachfront Bungalow",
     "type": "House",
     "imgUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=1740&auto=format&fit=crop",
+    "imgUrls": [
+      "https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=1740&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1629286521433-dfa4637fbe9a?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1606819422797-74627f4dac0b?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1687862745564-595b06daf5a3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDI0fHx8ZW58MHx8fHx8"
+    ],
     "price": 540,
     "capacity": 5,
     "bedrooms": 2,
@@ -1120,6 +1152,13 @@
     "name": "Greece Coral Reef Villa",
     "type": "Villa",
     "imgUrl": "https://images.unsplash.com/photo-1689668158402-35beeaf9167d?q=80&w=870&auto=format&fit=crop",
+    "imgUrls": [
+      "https://images.unsplash.com/photo-1689668158402-35beeaf9167d?q=80&w=870&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1688378707060-37f0a702cb04?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1743043322412-bfd95f750eb2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D",
+      "https://images.unsplash.com/photo-1583608628796-b788693ed381?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D",
+      "https://images.unsplash.com/photo-1649053679570-4e0f268002af?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D"
+    ],
     "price": 995,
     "capacity": 10,
     "bedrooms": 5,
