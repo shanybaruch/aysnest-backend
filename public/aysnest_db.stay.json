@@ -946,6 +946,13 @@
     "name": "NY Brooklyn Artistic Loft",
     "type": "Loft",
     "imgUrl": "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?q=80&w=870&auto=format&fit=crop",
+    "imgUrls": [
+      "https://plus.unsplash.com/premium_photo-1670360414903-19e5832f8bc4?q=80&w=1740&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1740&auto=format&fit=crop",
+      "https://plus.unsplash.com/premium_photo-1675745329954-9639d3b74bbf?q=80&w=687&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=928&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1740&auto=format&fit=crop"
+    ],
     "price": 420,
     "capacity": 3,
     "bedrooms": 1,
@@ -1251,6 +1258,13 @@
     "name": "NY Wall Street Executive",
     "type": "Apartment",
     "imgUrl": "https://images.unsplash.com/photo-1598605272254-16f0c0ecdfa5?q=80&w=1742&auto=format&fit=crop",
+    "imgUrls": [
+      "https://plus.unsplash.com/premium_photo-1670360414903-19e5832f8bc4?q=80&w=1740&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1740&auto=format&fit=crop",
+      "https://plus.unsplash.com/premium_photo-1675745329954-9639d3b74bbf?q=80&w=687&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=928&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1740&auto=format&fit=crop"
+    ],
     "price": 580,
     "capacity": 2,
     "bedrooms": 1,
@@ -1469,6 +1483,13 @@
     "name": "NYC Soho Artist Flat",
     "type": "Apartment",
     "imgUrl": "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1325&auto=format&fit=crop",
+    "imgUrls": [
+      "https://plus.unsplash.com/premium_photo-1670360414903-19e5832f8bc4?q=80&w=1740&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1740&auto=format&fit=crop",
+      "https://plus.unsplash.com/premium_photo-1675745329954-9639d3b74bbf?q=80&w=687&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=928&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1740&auto=format&fit=crop"
+    ],
     "price": 690,
     "capacity": 4,
     "bedrooms": 2,
@@ -1685,6 +1706,13 @@
     "name": "NYC Upper East Side Classic",
     "type": "Apartment",
     "imgUrl": "https://images.unsplash.com/photo-1604348825621-22800b6ed16d?q=80&w=687&auto=format&fit=crop",
+    "imgUrls": [
+      "https://plus.unsplash.com/premium_photo-1670360414903-19e5832f8bc4?q=80&w=1740&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1740&auto=format&fit=crop",
+      "https://plus.unsplash.com/premium_photo-1675745329954-9639d3b74bbf?q=80&w=687&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=928&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1740&auto=format&fit=crop"
+    ],
     "price": 610,
     "capacity": 4,
     "bedrooms": 2,
@@ -1904,6 +1932,13 @@
     "name": "NYC Greenwich Village Studio",
     "type": "Studio",
     "imgUrl": "https://images.unsplash.com/photo-1502672023488-70e25813eb80?q=80&w=1560&auto=format&fit=crop",
+    "imgUrls": [
+      "https://plus.unsplash.com/premium_photo-1670360414903-19e5832f8bc4?q=80&w=1740&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1740&auto=format&fit=crop",
+      "https://plus.unsplash.com/premium_photo-1675745329954-9639d3b74bbf?q=80&w=687&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=928&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1740&auto=format&fit=crop"
+    ],
     "price": 495,
     "capacity": 2,
     "bedrooms": 1,
